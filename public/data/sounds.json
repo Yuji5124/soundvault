@@ -1,0 +1,142 @@
+[
+  {
+    "id": "calm_loop_001",
+    "name": "Calm Loop 001",
+    "file": "/sounds/bgm/calm-loop-001.wav",
+    "category": "BGM",
+    "tags": [
+      "bgm"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 105884,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.046Z"
+  },
+  {
+    "id": "coin_001",
+    "name": "Coin 001",
+    "file": "/sounds/item/coin-001.wav",
+    "category": "ITEM",
+    "tags": [
+      "item"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 30912,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.047Z"
+  },
+  {
+    "id": "happy_001",
+    "name": "Happy 001",
+    "file": "/sounds/kids/happy-001.wav",
+    "category": "KIDS",
+    "tags": [
+      "kids"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 30912,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.047Z"
+  },
+  {
+    "id": "jump_001",
+    "name": "Jump 001",
+    "file": "/sounds/action/jump-001.wav",
+    "category": "ACTION",
+    "tags": [
+      "action"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 30912,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.046Z"
+  },
+  {
+    "id": "rain_loop_001",
+    "name": "Rain Loop 001",
+    "file": "/sounds/environment/rain-loop-001.wav",
+    "category": "ENVIRONMENT",
+    "tags": [
+      "environment"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 105884,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.046Z"
+  },
+  {
+    "id": "soft_click_001",
+    "name": "Soft Click 001",
+    "file": "/sounds/ui/soft-click-001.wav",
+    "category": "UI",
+    "tags": [
+      "ui"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 30912,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.047Z"
+  },
+  {
+    "id": "spark_001",
+    "name": "Spark 001",
+    "file": "/sounds/fx/spark-001.wav",
+    "category": "FX",
+    "tags": [
+      "fx"
+    ],
+    "duration": 0,
+    "format": "wav",
+    "size": 30912,
+    "loop": false,
+    "volume": 0.8,
+    "license": "UNKNOWN",
+    "source": "",
+    "author": "",
+    "favorite": false,
+    "notes": "",
+    "createdAt": "2026-10-06T13:11:09.047Z"
+  }
+]
