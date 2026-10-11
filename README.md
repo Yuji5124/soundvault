@@ -1,5 +1,13 @@
 # SOUNDVAULT
 
+## Project 管理
+
+「Project 管理」で名前（例：桃太郎）と種類（例：紙芝居、ゲーム）を登録できます。各効果音の「Project を設定」で複数の Project に紐付けると、カードに Project 名と種類が表示され、検索・絞り込みにも利用できます。
+
+終了した Project はアーカイブすると「Project Archive」で探せます。復元もできます。紐付け解除はチェックを外して保存、Project 削除は管理画面から実行します。いずれも音源ファイルは削除しません。
+
+画面の編集はこのブラウザの localStorage に保存されます。他の端末や訪問者には自動共有されません。「JSON 書き出し」の `projects` を `data/projects.json` に、`sounds` を `data/sounds.json` に保存し、`npm run scan` 後にコミット・push すると共有できます。スキャンは `projectIds` を保持します。Project を削除して共有する場合は両方の JSON を更新してください。
+
 Reusable Sound Asset Library — a lightweight static sound browser for games, Three.js, Phaser, and web apps.
 
 ## What it does

@@ -19,11 +19,13 @@ for (const file of soundFiles) {
   const info = await stat(file);
   const category = basename(new URL('../public/sounds/', import.meta.url).pathname === file.pathname ? file.pathname : file.pathname.split('/').slice(-2, -1)[0]).toUpperCase();
   const stem = basename(file.pathname, extname(file.pathname));
-  sounds.push({ id: metadata.id ?? stem.toLowerCase().replace(/[^a-z0-9]+/g, '_'), name: metadata.name ?? stem.replace(/[-_]+/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase()), file: publicPath, category: metadata.category ?? category, tags: metadata.tags ?? [category.toLowerCase()], duration: metadata.duration ?? 0, format: extname(file.pathname).slice(1).toLowerCase(), size: info.size, loop: metadata.loop ?? defaults.loop, volume: metadata.volume ?? defaults.volume, license: metadata.license ?? defaults.license, source: metadata.source ?? defaults.source, author: metadata.author ?? defaults.author, favorite: metadata.favorite ?? defaults.favorite, notes: metadata.notes ?? defaults.notes, ...(metadata.collections ? { collections: metadata.collections } : {}), createdAt: metadata.createdAt ?? new Date().toISOString() });
+  sounds.push({ ...metadata, id: metadata.id ?? stem.toLowerCase().replace(/[^a-z0-9]+/g, '_'), name: metadata.name ?? stem.replace(/[-_]+/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase()), file: publicPath, category: metadata.category ?? category, tags: metadata.tags ?? [category.toLowerCase()], duration: metadata.duration ?? 0, format: extname(file.pathname).slice(1).toLowerCase(), size: info.size, loop: metadata.loop ?? defaults.loop, volume: metadata.volume ?? defaults.volume, license: metadata.license ?? defaults.license, source: metadata.source ?? defaults.source, author: metadata.author ?? defaults.author, favorite: metadata.favorite ?? defaults.favorite, notes: metadata.notes ?? defaults.notes, ...(metadata.collections ? { collections: metadata.collections } : {}), createdAt: metadata.createdAt ?? new Date().toISOString() });
 }
 sounds.sort((a, b) => a.name.localeCompare(b.name));
 const serialized = `${JSON.stringify(sounds, null, 2)}\n`;
 await writeFile(output, serialized);
 await mkdir(new URL('../public/data/', import.meta.url), { recursive: true });
 await writeFile(publicOutput, serialized);
+const projects = await readFile(new URL('../data/projects.json', import.meta.url), 'utf8').catch(() => '[]');
+await writeFile(new URL('../public/data/projects.json', import.meta.url), projects);
 console.log(`Indexed ${sounds.length} sound${sounds.length === 1 ? '' : 's'} in data/sounds.json`);
