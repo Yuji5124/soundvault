@@ -138,5 +138,2025 @@
     "favorite": false,
     "notes": "",
     "createdAt": "2026-10-06T13:11:09.047Z"
+  },
+  {
+    "id": "monque_stone_m4a",
+    "name": "モンクエ いしのまち",
+    "file": "/sounds/bgm/monque-stone.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "E minor",
+      "世界の異常の動機"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.18 いしのまち（石になった町）。E minor・75 BPM・4/4・16小節。独奏バイオリンが異常の動機をぽつりと、弦トレモロとE音の持続 → B グロッケンとフルート、弱音器付きホルン、弓で擦るシンバル。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1247240
+  },
+  {
+    "id": "monque_stone_ogg",
+    "name": "モンクエ いしのまち",
+    "file": "/sounds/bgm/monque-stone.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "E minor",
+      "世界の異常の動機"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.18 いしのまち（石になった町）。E minor・75 BPM・4/4・16小節。独奏バイオリンが異常の動機をぽつりと、弦トレモロとE音の持続 → B グロッケンとフルート、弱音器付きホルン、弓で擦るシンバル。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1305569
+  },
+  {
+    "id": "monque_iwayama_m4a",
+    "name": "モンクエ いわやま崩落",
+    "file": "/sounds/bgm/monque-iwayama.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "A minor"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.09 いわやまのどうくつ（崩落シューティング）。A minor・150 BPM・4/4・32小節。A バイオリン＋フルートの速い旋律、スピッカートと8分の低音 → B ホルン重ね、トランペットの打ち込み → A2・B2 総奏。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1247593
+  },
+  {
+    "id": "monque_iwayama_ogg",
+    "name": "モンクエ いわやま崩落",
+    "file": "/sounds/bgm/monque-iwayama.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "A minor"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.09 いわやまのどうくつ（崩落シューティング）。A minor・150 BPM・4/4・32小節。A バイオリン＋フルートの速い旋律、スピッカートと8分の低音 → B ホルン重ね、トランペットの打ち込み → A2・B2 総奏。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1203053
+  },
+  {
+    "id": "monque_ending_m4a",
+    "name": "モンクエ エンディング",
+    "file": "/sounds/bgm/monque-ending.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "E♭ major",
+      "焚き火の動機",
+      "主人公の主題"
+    ],
+    "duration": 72,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3456000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM07 エンディング。E♭ major・80 BPM・4/4・24小節。A フルートとバイオリンが焚き火の動機 → B ホルン独奏で主人公の主題 → C 二つの動機を重ねた総奏。ループ: 0〜3456000 サンプル（48kHz、72.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1748642
+  },
+  {
+    "id": "monque_ending_ogg",
+    "name": "モンクエ エンディング",
+    "file": "/sounds/bgm/monque-ending.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "E♭ major",
+      "焚き火の動機",
+      "主人公の主題"
+    ],
+    "duration": 72,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3456000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM07 エンディング。E♭ major・80 BPM・4/4・24小節。A フルートとバイオリンが焚き火の動機 → B ホルン独奏で主人公の主題 → C 二つの動機を重ねた総奏。ループ: 0〜3456000 サンプル（48kHz、72.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1650286
+  },
+  {
+    "id": "monque_orochi_road_m4a",
+    "name": "モンクエ オロチへの道",
+    "file": "/sounds/bgm/monque-orochi-road.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "F minor",
+      "主人公の主題（短調）",
+      "世界の異常の動機"
+    ],
+    "duration": 57.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2764800,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.20 オロチへの道。F minor・100 BPM・4/4・24小節。A 重い行進、ファゴット＋チェロが短調の主題、♭IIの和音 → B 第1バイオリン＋ホルン → C ドラが鳴り、トランペットが異常の動機。ループ: 0〜2764800 サンプル（48kHz、57.600秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1401327
+  },
+  {
+    "id": "monque_orochi_road_ogg",
+    "name": "モンクエ オロチへの道",
+    "file": "/sounds/bgm/monque-orochi-road.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "F minor",
+      "主人公の主題（短調）",
+      "世界の異常の動機"
+    ],
+    "duration": 57.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2764800,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.20 オロチへの道。F minor・100 BPM・4/4・24小節。A 重い行進、ファゴット＋チェロが短調の主題、♭IIの和音 → B 第1バイオリン＋ホルン → C ドラが鳴り、トランペットが異常の動機。ループ: 0〜2764800 サンプル（48kHz、57.600秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1357038
+  },
+  {
+    "id": "monque_hidden_m4a",
+    "name": "モンクエ かくれざと",
+    "file": "/sounds/bgm/monque-hidden.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "A minor (pentatonic)"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.10 かくれざと。A minor (pentatonic)・80 BPM・4/4・16小節。五音音階の旋律をフルートで、ハープとピチカート、木の太鼓 → B オーボエが長い音で寄り添う。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1171135
+  },
+  {
+    "id": "monque_hidden_ogg",
+    "name": "モンクエ かくれざと",
+    "file": "/sounds/bgm/monque-hidden.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "A minor (pentatonic)"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.10 かくれざと。A minor (pentatonic)・80 BPM・4/4・16小節。五音音階の旋律をフルートで、ハープとピチカート、木の太鼓 → B オーボエが長い音で寄り添う。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1084106
+  },
+  {
+    "id": "monque_gacha_m4a",
+    "name": "モンクエ ジャンカードガチャ",
+    "file": "/sounds/bgm/monque-gacha.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "戦闘",
+      "F major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ジャンカードガチャ。F major・120 BPM・4/4・24小節。A グロッケン＋フルート、16分のハープのきらめき → B 第1バイオリン＋クラリネット → A2 くり返し、鈴の木。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1177751
+  },
+  {
+    "id": "monque_gacha_ogg",
+    "name": "モンクエ ジャンカードガチャ",
+    "file": "/sounds/bgm/monque-gacha.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "戦闘",
+      "F major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ジャンカードガチャ。F major・120 BPM・4/4・24小節。A グロッケン＋フルート、16分のハープのきらめき → B 第1バイオリン＋クラリネット → A2 くり返し、鈴の木。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1224054
+  },
+  {
+    "id": "monque_card_m4a",
+    "name": "モンクエ ジャンカード対戦",
+    "file": "/sounds/bgm/monque-card.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "戦闘",
+      "C major"
+    ],
+    "duration": 46.08,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2211840,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ジャンカード対戦（サブゲーム）。C major・125 BPM・4/4・24小節。A シロフォン＋フルートの跳ねる旋律、ファゴットとピチカート → B クラリネットとグロッケン → A2 ホルンの合いの手。ループ: 0〜2211840 サンプル（48kHz、46.080秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1141049
+  },
+  {
+    "id": "monque_card_ogg",
+    "name": "モンクエ ジャンカード対戦",
+    "file": "/sounds/bgm/monque-card.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "戦闘",
+      "C major"
+    ],
+    "duration": 46.08,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2211840,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ジャンカード対戦（サブゲーム）。C major・125 BPM・4/4・24小節。A シロフォン＋フルートの跳ねる旋律、ファゴットとピチカート → B クラリネットとグロッケン → A2 ホルンの合いの手。ループ: 0〜2211840 サンプル（48kHz、46.080秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1165803
+  },
+  {
+    "id": "monque_title_m4a",
+    "name": "モンクエ タイトルA「幻の冒険の書」",
+    "file": "/sounds/bgm/monque-title.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "B♭ major",
+      "主人公の主題"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（A案）。B♭ major・96 BPM・4/4・24小節。A ホルン＋チェロの主題 → B ト短調の歌（フルート＋バイオリン） → A2 トランペットの総奏。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1457779
+  },
+  {
+    "id": "monque_title_ogg",
+    "name": "モンクエ タイトルA「幻の冒険の書」",
+    "file": "/sounds/bgm/monque-title.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "B♭ major",
+      "主人公の主題"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（A案）。B♭ major・96 BPM・4/4・24小節。A ホルン＋チェロの主題 → B ト短調の歌（フルート＋バイオリン） → A2 トランペットの総奏。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1402820
+  },
+  {
+    "id": "monque_title_b_m4a",
+    "name": "モンクエ タイトルB「黎明の剣」",
+    "file": "/sounds/bgm/monque-title-b.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "D minor",
+      "主人公の主題（短調）"
+    ],
+    "duration": 64,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3072000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（B案）。D minor・120 BPM・4/4・32小節。A 低弦とホルンが短調の主題、刻む弦とティンパニ → B ヘ長調へ開ける歌 → C 総奏の主題、トランペット対旋律 → D 金管の打ち込みと♭IIの劇的な終止。ループ: 0〜3072000 サンプル（48kHz、64.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1563122
+  },
+  {
+    "id": "monque_title_b_ogg",
+    "name": "モンクエ タイトルB「黎明の剣」",
+    "file": "/sounds/bgm/monque-title-b.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "D minor",
+      "主人公の主題（短調）"
+    ],
+    "duration": 64,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3072000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（B案）。D minor・120 BPM・4/4・32小節。A 低弦とホルンが短調の主題、刻む弦とティンパニ → B ヘ長調へ開ける歌 → C 総奏の主題、トランペット対旋律 → D 金管の打ち込みと♭IIの劇的な終止。ループ: 0〜3072000 サンプル（48kHz、64.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1459657
+  },
+  {
+    "id": "monque_dungeon_m4a",
+    "name": "モンクエ ダンジョン",
+    "file": "/sounds/bgm/monque-dungeon.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "D Dorian",
+      "主人公の主題（短調）"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM04 ダンジョン。D Dorian・80 BPM・4/4・16小節。A オーボエ、ハープの反復、弦トレモロ、ドラ → B ファゴット＋チェロ。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1164743
+  },
+  {
+    "id": "monque_dungeon_ogg",
+    "name": "モンクエ ダンジョン",
+    "file": "/sounds/bgm/monque-dungeon.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "D Dorian",
+      "主人公の主題（短調）"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM04 ダンジョン。D Dorian・80 BPM・4/4・16小節。A オーボエ、ハープの反復、弦トレモロ、ドラ → B ファゴット＋チェロ。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1087205
+  },
+  {
+    "id": "monque_tower_m4a",
+    "name": "モンクエ デーマスのとう",
+    "file": "/sounds/bgm/monque-tower.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "C minor"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.16 デーマスのとう。C minor・120 BPM・4/4・24小節。A 刻み続ける弦の上でホルン＋ファゴット → B 第1バイオリン、木の太鼓 → C トランペット、♭IIの和音で緊張。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1167787
+  },
+  {
+    "id": "monque_tower_ogg",
+    "name": "モンクエ デーマスのとう",
+    "file": "/sounds/bgm/monque-tower.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "C minor"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.16 デーマスのとう。C minor・120 BPM・4/4・24小節。A 刻み続ける弦の上でホルン＋ファゴット → B 第1バイオリン、木の太鼓 → C トランペット、♭IIの和音で緊張。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1140948
+  },
+  {
+    "id": "monque_start_town_m4a",
+    "name": "モンクエ はじまりのまち",
+    "file": "/sounds/bgm/monque-start-town.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "G major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.02 はじまりのまち。G major・120 BPM・4/4・24小節。A クラリネットとピチカート、タンバリン → B フルートとオーボエ、IV-V-iii-viの進行 → A2 バイオリン＋フルート、グロッケン。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1167045
+  },
+  {
+    "id": "monque_start_town_ogg",
+    "name": "モンクエ はじまりのまち",
+    "file": "/sounds/bgm/monque-start-town.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "G major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.02 はじまりのまち。G major・120 BPM・4/4・24小節。A クラリネットとピチカート、タンバリン → B フルートとオーボエ、IV-V-iii-viの進行 → A2 バイオリン＋フルート、グロッケン。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1209872
+  },
+  {
+    "id": "monque_bie_m4a",
+    "name": "モンクエ ビーエのむら",
+    "file": "/sounds/bgm/monque-bie.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "D major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.04 ビーエのむら（山あいの村）。D major・120 BPM・3/4・32小節。3拍子。A オーボエの牧歌、ピチカートの2・3拍目 → B フルート、借用のii-iv、ホルンの和音。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1173292
+  },
+  {
+    "id": "monque_bie_ogg",
+    "name": "モンクエ ビーエのむら",
+    "file": "/sounds/bgm/monque-bie.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "D major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.04 ビーエのむら（山あいの村）。D major・120 BPM・3/4・32小節。3拍子。A オーボエの牧歌、ピチカートの2・3拍目 → B フルート、借用のii-iv、ホルンの和音。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1153273
+  },
+  {
+    "id": "monque_forest_m4a",
+    "name": "モンクエ ビーエのもり",
+    "file": "/sounds/bgm/monque-forest.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "G major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.03 ビーエのもり／はじまりのもり。G major・120 BPM・4/4・24小節。A オーボエとハープ、ピチカートの裏拍 → B フルート＋クラリネット、弦の和音 → A2 バイオリン＋フルート、グロッケン。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1170345
+  },
+  {
+    "id": "monque_forest_ogg",
+    "name": "モンクエ ビーエのもり",
+    "file": "/sounds/bgm/monque-forest.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "G major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.03 ビーエのもり／はじまりのもり。G major・120 BPM・4/4・24小節。A オーボエとハープ、ピチカートの裏拍 → B フルート＋クラリネット、弦の和音 → A2 バイオリン＋フルート、グロッケン。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1196008
+  },
+  {
+    "id": "monque_field_m4a",
+    "name": "モンクエ フィールド",
+    "file": "/sounds/bgm/monque-field.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "D major",
+      "主人公の主題"
+    ],
+    "duration": 64,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3072000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM02 フィールド（ワールドマップ）。D major・120 BPM・4/4・32小節。A バイオリン＋フルート、行進の小太鼓 → A2 ホルンの旋律 → B 木管の歌、♭VII → C 総奏。ループ: 0〜3072000 サンプル（48kHz、64.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1560896
+  },
+  {
+    "id": "monque_field_ogg",
+    "name": "モンクエ フィールド",
+    "file": "/sounds/bgm/monque-field.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "D major",
+      "主人公の主題"
+    ],
+    "duration": 64,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3072000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM02 フィールド（ワールドマップ）。D major・120 BPM・4/4・32小節。A バイオリン＋フルート、行進の小太鼓 → A2 ホルンの旋律 → B 木管の歌、♭VII → C 総奏。ループ: 0〜3072000 サンプル（48kHz、64.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1515708
+  },
+  {
+    "id": "monque_shrine_m4a",
+    "name": "モンクエ ふっかつのほこら",
+    "file": "/sounds/bgm/monque-shrine.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "F major"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.15 ふっかつのほこら。F major・64 BPM・4/4・16小節。オルガンと弦のコラール、ハープ、各区間の頭に鐘 → B フルートが加わる。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1458943
+  },
+  {
+    "id": "monque_shrine_ogg",
+    "name": "モンクエ ふっかつのほこら",
+    "file": "/sounds/bgm/monque-shrine.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "F major"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.15 ふっかつのほこら。F major・64 BPM・4/4・16小節。オルガンと弦のコラール、ハープ、各区間の頭に鐘 → B フルートが加わる。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1403519
+  },
+  {
+    "id": "monque_boss_m4a",
+    "name": "モンクエ ボス戦",
+    "file": "/sounds/bgm/monque-boss.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "E minor",
+      "主人公の主題（短調）"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM05 ボス戦（デーマス、バトラス等）。E minor・150 BPM・4/4・32小節。A トランペット＋バイオリン、金管の刻み → B ホルンの英雄的な旋律 → C 総奏。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1253257
+  },
+  {
+    "id": "monque_boss_ogg",
+    "name": "モンクエ ボス戦",
+    "file": "/sounds/bgm/monque-boss.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "E minor",
+      "主人公の主題（短調）"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM05 ボス戦（デーマス、バトラス等）。E minor・150 BPM・4/4・32小節。A トランペット＋バイオリン、金管の刻み → B ホルンの英雄的な旋律 → C 総奏。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1265948
+  },
+  {
+    "id": "monque_lake_m4a",
+    "name": "モンクエ みずうみの古城",
+    "file": "/sounds/bgm/monque-lake.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "G minor"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.11 みずうみの古城。G minor・96 BPM・3/4・32小節。3拍子の哀しいワルツ。A クラリネット、チェロ、ハープ → B 第1バイオリンとオーボエの対旋律、変ホ長調へ。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1456024
+  },
+  {
+    "id": "monque_lake_ogg",
+    "name": "モンクエ みずうみの古城",
+    "file": "/sounds/bgm/monque-lake.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "フィールド・ダンジョン",
+      "G minor"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.11 みずうみの古城。G minor・96 BPM・3/4・32小節。3拍子の哀しいワルツ。A クラリネット、チェロ、ハープ → B 第1バイオリンとオーボエの対旋律、変ホ長調へ。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1524515
+  },
+  {
+    "id": "monque_town_m4a",
+    "name": "モンクエ むら・まち（比較共通テーマ）",
+    "file": "/sounds/bgm/monque-town.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "F major",
+      "主人公の主題（拡大）"
+    ],
+    "duration": 57.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2764800,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM03 むら・まち。F major・100 BPM・4/4・24小節。A フルートとハープ、ピチカート → B オーボエ、♭VII → A2 バイオリン＋フルート。ループ: 0〜2764800 サンプル（48kHz、57.600秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1404552
+  },
+  {
+    "id": "monque_town_ogg",
+    "name": "モンクエ むら・まち（比較共通テーマ）",
+    "file": "/sounds/bgm/monque-town.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "F major",
+      "主人公の主題（拡大）"
+    ],
+    "duration": 57.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2764800,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM03 むら・まち。F major・100 BPM・4/4・24小節。A フルートとハープ、ピチカート → B オーボエ、♭VII → A2 バイオリン＋フルート。ループ: 0〜2764800 サンプル（48kHz、57.600秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1406363
+  },
+  {
+    "id": "monque_again_m4a",
+    "name": "モンクエ もういちど",
+    "file": "/sounds/bgm/monque-again.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "A minor",
+      "焚き火の動機"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM08 特殊枠（「もういちど」の焚き火）。A minor・75 BPM・4/4・16小節。A 独奏バイオリンとハープで焚き火の動機 → B フルートが受け継ぎ、最後に焚き火の動機へ戻る。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1244697
+  },
+  {
+    "id": "monque_again_ogg",
+    "name": "モンクエ もういちど",
+    "file": "/sounds/bgm/monque-again.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "A minor",
+      "焚き火の動機"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM08 特殊枠（「もういちど」の焚き火）。A minor・75 BPM・4/4・16小節。A 独奏バイオリンとハープで焚き火の動機 → B フルートが受け継ぎ、最後に焚き火の動機へ戻る。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1286732
+  },
+  {
+    "id": "monque_castle_m4a",
+    "name": "モンクエ レインランドじょう",
+    "file": "/sounds/bgm/monque-castle.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "E♭ major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.06 レインランドじょう（王の間）。E♭ major・80 BPM・4/4・16小節。A トランペットの儀礼的な旋律、ホルンと低音金管のコラール → B バイオリン＋オーボエ、ハープ。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1172099
+  },
+  {
+    "id": "monque_castle_ogg",
+    "name": "モンクエ レインランドじょう",
+    "file": "/sounds/bgm/monque-castle.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "E♭ major"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.06 レインランドじょう（王の間）。E♭ major・80 BPM・4/4・16小節。A トランペットの儀礼的な旋律、ホルンと低音金管のコラール → B バイオリン＋オーボエ、ハープ。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1177106
+  },
+  {
+    "id": "monque_castletown_m4a",
+    "name": "モンクエ レインランドじょうかまち",
+    "file": "/sounds/bgm/monque-castletown.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "B♭ major"
+    ],
+    "duration": 46.08,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2211840,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.06 レインランドじょうかまち。B♭ major・125 BPM・4/4・24小節。A バイオリン＋フルートの快活な旋律、スピッカートとピチカート → B オーボエ＋クラリネット → A2 トランペットの対旋律と小太鼓。ループ: 0〜2211840 サンプル（48kHz、46.080秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1126041
+  },
+  {
+    "id": "monque_castletown_ogg",
+    "name": "モンクエ レインランドじょうかまち",
+    "file": "/sounds/bgm/monque-castletown.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "B♭ major"
+    ],
+    "duration": 46.08,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2211840,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.06 レインランドじょうかまち。B♭ major・125 BPM・4/4・24小節。A バイオリン＋フルートの快活な旋律、スピッカートとピチカート → B オーボエ＋クラリネット → A2 トランペットの対旋律と小太鼓。ループ: 0〜2211840 サンプル（48kHz、46.080秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1169829
+  },
+  {
+    "id": "monque_anomaly_m4a",
+    "name": "モンクエ 世界の異常",
+    "file": "/sounds/bgm/monque-anomaly.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "C# minor",
+      "世界の異常の動機"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "不穏・世界の異常の場面。C# minor・75 BPM・4/4・16小節。A 低いファゴット＋チェロが異常の動機、トレモロとドラ → B 独奏バイオリン、弱音器付きホルン、弓で擦るシンバル。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1245361
+  },
+  {
+    "id": "monque_anomaly_ogg",
+    "name": "モンクエ 世界の異常",
+    "file": "/sounds/bgm/monque-anomaly.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "C# minor",
+      "世界の異常の動機"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "不穏・世界の異常の場面。C# minor・75 BPM・4/4・16小節。A 低いファゴット＋チェロが異常の動機、トレモロとドラ → B 独奏バイオリン、弱音器付きホルン、弓で擦るシンバル。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1273257
+  },
+  {
+    "id": "monque_choice_m4a",
+    "name": "モンクエ 主人公の選択",
+    "file": "/sounds/bgm/monque-choice.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "C major / A minor",
+      "焚き火の動機",
+      "主人公の主題"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "主人公の選択（ここに のこる／もとの せかいへ かえる）。C major / A minor・80 BPM・4/4・16小節。A チェロ独奏の焚き火の動機（イ短調） → シンバルの膨らみ → B ハ長調で主人公の主題、バイオリン＋フルート＋ホルン。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1165383
+  },
+  {
+    "id": "monque_choice_ogg",
+    "name": "モンクエ 主人公の選択",
+    "file": "/sounds/bgm/monque-choice.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "C major / A minor",
+      "焚き火の動機",
+      "主人公の主題"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "主人公の選択（ここに のこる／もとの せかいへ かえる）。C major / A minor・80 BPM・4/4・16小節。A チェロ独奏の焚き火の動機（イ短調） → シンバルの膨らみ → B ハ長調で主人公の主題、バイオリン＋フルート＋ホルン。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1112600
+  },
+  {
+    "id": "monque_bond_m4a",
+    "name": "モンクエ 仲間",
+    "file": "/sounds/bgm/monque-bond.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "A♭ major",
+      "主人公の主題"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "仲間加入・絆の場面。A♭ major・80 BPM・4/4・16小節。A ホルン独奏の主人公の主題、ハープと弦 → B バイオリン＋フルート、ホルンの対旋律。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1163476
+  },
+  {
+    "id": "monque_bond_ogg",
+    "name": "モンクエ 仲間",
+    "file": "/sounds/bgm/monque-bond.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "A♭ major",
+      "主人公の主題"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "仲間加入・絆の場面。A♭ major・80 BPM・4/4・16小節。A ホルン独奏の主人公の主題、ハープと弦 → B バイオリン＋フルート、ホルンの対旋律。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1074637
+  },
+  {
+    "id": "monque_final_m4a",
+    "name": "モンクエ 最終戦「オロチ」",
+    "file": "/sounds/bgm/monque-final.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "C minor",
+      "世界の異常の動機",
+      "主人公の主題（短調）"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM06 最終戦。C minor・160 BPM・4/4・32小節。A 異常の動機を低音総出で → B 高弦の悲劇的な歌 → C 主人公の主題が短調で総奏 → D 半音で崩れていく和声、ドラ。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1182295
+  },
+  {
+    "id": "monque_final_ogg",
+    "name": "モンクエ 最終戦「オロチ」",
+    "file": "/sounds/bgm/monque-final.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "C minor",
+      "世界の異常の動機",
+      "主人公の主題（短調）"
+    ],
+    "duration": 48,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2304000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM06 最終戦。C minor・160 BPM・4/4・32小節。A 異常の動機を低音総出で → B 高弦の悲劇的な歌 → C 主人公の主題が短調で総奏 → D 半音で崩れていく和声、ドラ。ループ: 0〜2304000 サンプル（48kHz、48.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1169982
+  },
+  {
+    "id": "monque_victory_m4a",
+    "name": "モンクエ 勝利ファンファーレ",
+    "file": "/sounds/bgm/monque-victory.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "ジングル",
+      "B♭ major",
+      "主人公の主題（ファンファーレ）"
+    ],
+    "duration": 14,
+    "loop": false,
+    "loopStart": null,
+    "loopEnd": null,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "戦闘勝利（1回再生）。B♭ major・120 BPM・4/4・5小節。トランペットの三連打から主音へ、最後の和音にシンバル。約12秒、ループなし。1回再生のジングル。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 336181
+  },
+  {
+    "id": "monque_victory_ogg",
+    "name": "モンクエ 勝利ファンファーレ",
+    "file": "/sounds/bgm/monque-victory.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "ジングル",
+      "B♭ major",
+      "主人公の主題（ファンファーレ）"
+    ],
+    "duration": 14,
+    "loop": false,
+    "loopStart": null,
+    "loopEnd": null,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "戦闘勝利（1回再生）。B♭ major・120 BPM・4/4・5小節。トランペットの三連打から主音へ、最後の和音にシンバル。約12秒、ループなし。1回再生のジングル。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 306366
+  },
+  {
+    "id": "monque_sorrow_m4a",
+    "name": "モンクエ 悲しみ",
+    "file": "/sounds/bgm/monque-sorrow.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "D minor",
+      "焚き火の動機（短調）"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "悲しみの場面。D minor・64 BPM・4/4・16小節。A オーボエが短調の焚き火の動機、弦の和音とハープ → B 独奏バイオリン、チェロの対旋律。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1457630
+  },
+  {
+    "id": "monque_sorrow_ogg",
+    "name": "モンクエ 悲しみ",
+    "file": "/sounds/bgm/monque-sorrow.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "物語の場面",
+      "D minor",
+      "焚き火の動機（短調）"
+    ],
+    "duration": 60,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2880000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "悲しみの場面。D minor・64 BPM・4/4・16小節。A オーボエが短調の焚き火の動機、弦の和音とハープ → B 独奏バイオリン、チェロの対旋律。ループ: 0〜2880000 サンプル（48kHz、60.000秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1471008
+  },
+  {
+    "id": "monque_port_m4a",
+    "name": "モンクエ 港町ダコハ",
+    "file": "/sounds/bgm/monque-port.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "D major"
+    ],
+    "duration": 46.08,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2211840,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.12 港町ダコハ。D major・125 BPM・3/4・32小節。3拍子の舟歌。A クラリネットとファゴット、ピチカート → B ロ短調に翳る、バイオリン＋フルート。ループ: 0〜2211840 サンプル（48kHz、46.080秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1123024
+  },
+  {
+    "id": "monque_port_ogg",
+    "name": "モンクエ 港町ダコハ",
+    "file": "/sounds/bgm/monque-port.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "町・村・城",
+      "D major"
+    ],
+    "duration": 46.08,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2211840,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "No.12 港町ダコハ。D major・125 BPM・3/4・32小節。3拍子の舟歌。A クラリネットとファゴット、ピチカート → B ロ短調に翳る、バイオリン＋フルート。ループ: 0〜2211840 サンプル（48kHz、46.080秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1179584
+  },
+  {
+    "id": "monque_battle_m4a",
+    "name": "モンクエ 通常戦闘",
+    "file": "/sounds/bgm/monque-battle.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "戦闘",
+      "G minor"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "通常戦闘。G minor・150 BPM・4/4・32小節。A トランペット＋バイオリン、ホルンの刻み、シンコペーションするコントラバス → B バイオリン＋フルートとホルン → A2・B2 さらに厚く。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "m4a",
+    "size": 1248975
+  },
+  {
+    "id": "monque_battle_ogg",
+    "name": "モンクエ 通常戦闘",
+    "file": "/sounds/bgm/monque-battle.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "戦闘",
+      "G minor"
+    ],
+    "duration": 51.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2457600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "通常戦闘。G minor・150 BPM・4/4・32小節。A トランペット＋バイオリン、ホルンの刻み、シンコペーションするコントラバス → B バイオリン＋フルートとホルン → A2・B2 さらに厚く。ループ: 0〜2457600 サンプル（48kHz、51.200秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-15T21:21:16.915Z",
+    "format": "ogg",
+    "size": 1188862
   }
 ]

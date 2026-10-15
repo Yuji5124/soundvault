@@ -1,0 +1,39 @@
+{
+  "note": "Style traits only. Never name an existing game or composer in prompts.",
+  "negative": "vocals, singing, lyrics, speech, choir words, electronic beats, synth bass, distortion, lo-fi noise, crowd",
+  "duration": 60,
+  "seeds": [101, 202],
+  "cover_strengths": [0.8, 0.55],
+  "themes": [
+    {
+      "id": "mq_orch_town",
+      "usage": "BGM03 むら・まち (比較共通テーマ)",
+      "bpm": 100, "key": "F major",
+      "prompt": "Instrumental full symphony orchestra, warm 1990s Japanese RPG village theme reimagined for live orchestra, gentle flute melody, harp arpeggios, pizzicato strings, clarinet counter-melody, soft horns, light tambourine, folk-like lyrical tune, F major, 100 BPM, cinematic hall reverb, seamless game loop"
+    },
+    {
+      "id": "mq_orch_title",
+      "usage": "BGM01 タイトル / オープニング",
+      "bpm": 96, "key": "Bb major",
+      "prompt": "Instrumental full symphony orchestra, hopeful heroic adventure main theme for a 1990s Japanese RPG title screen, horns and cellos state a noble melody, flute and violins answer, trumpet tutti climax, harp, timpani, suspended cymbal swell, Bb major, 96 BPM, cinematic hall reverb"
+    },
+    {
+      "id": "mq_orch_field",
+      "usage": "BGM02 フィールド",
+      "bpm": 120, "key": "D major",
+      "prompt": "Instrumental full symphony orchestra, bright adventurous overworld journey theme, soaring violins and flute melody doubled by horns, spiccato string ostinato, marching snare, timpani, mixolydian flat-seven chords, D major, 120 BPM, cinematic hall reverb, seamless game loop"
+    },
+    {
+      "id": "mq_orch_dungeon",
+      "usage": "BGM04 ダンジョン",
+      "bpm": 80, "key": "D dorian",
+      "prompt": "Instrumental orchestral cave dungeon theme, mysterious and calm, solo oboe then bassoon and cellos melody, string tremolo, low harp ostinato, soft timpani, distant gong, glockenspiel glints, D dorian mode, 80 BPM, dark hall reverb, seamless game loop"
+    },
+    {
+      "id": "mq_orch_boss",
+      "usage": "BGM05 ボス戦",
+      "bpm": 150, "key": "E minor",
+      "prompt": "Instrumental full symphony orchestra boss battle theme, intense and driving, trumpets and violins melody, staccato horn and trombone stabs, fast spiccato strings and basses, pounding timpani, snare and bass drum, E minor, 150 BPM, cinematic, seamless game loop"
+    }
+  ]
+}
