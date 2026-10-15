@@ -1,0 +1,90 @@
+diff --git a/clients/sfizz_render.cpp b/clients/sfizz_render.cpp
+index 1991a7c..e8b5ef4 100644
+--- a/clients/sfizz_render.cpp
++++ b/clients/sfizz_render.cpp
+@@ -76,6 +76,7 @@ int main(int argc, char** argv)
+     options.add_options()
+         ("sfz", "SFZ file", cxxopts::value<std::string>())
+         ("midi", "Input midi file", cxxopts::value<std::string>())
++        ("events", "MONQUE SOUND LAB: text events 'frame on|off note velocity', sample-exact, float32 output", cxxopts::value<std::string>())
+         ("wav", "Output wav file", cxxopts::value<std::string>())
+         ("b,blocksize", "Block size for the sfizz callbacks", cxxopts::value(blockSize))
+         ("s,samplerate", "Output sample rate", cxxopts::value(sampleRate))
+@@ -101,15 +102,15 @@ int main(int argc, char** argv)
+ 
+     ERROR_IF(params.count("sfz") != 1, "Please specify a single SFZ file using --sfz");
+     ERROR_IF(params.count("wav") != 1, "Please specify a single WAV file using --wav");
+-    ERROR_IF(params.count("midi") != 1, "Please specify a single MIDI file using --midi");
++    ERROR_IF(params.count("midi") != 1 && params.count("events") != 1, "Please specify a single MIDI file using --midi");
+ 
+     fs::path sfzPath  = fs::current_path() / params["sfz"].as<std::string>();
+     fs::path outputPath  = fs::current_path() / params["wav"].as<std::string>();
+-    fs::path midiPath  = fs::current_path() / params["midi"].as<std::string>();
++    fs::path midiPath  = params.count("midi") ? fs::current_path() / params["midi"].as<std::string>() : fs::path();
+ 
+     ERROR_IF(!fs::exists(sfzPath) || !fs::is_regular_file(sfzPath),
+                     "SFZ file " << sfzPath.string() << " does not exist or is not a regular file");
+-    ERROR_IF(!fs::exists(midiPath) || !fs::is_regular_file(midiPath),
++    ERROR_IF(!params.count("events") && (!fs::exists(midiPath) || !fs::is_regular_file(midiPath)),
+             "MIDI file " << midiPath.string() << " does not exist or is not a regular file");
+ 
+     if (fs::exists(outputPath)) {
+@@ -129,6 +130,7 @@ int main(int argc, char** argv)
+     synth.setSampleQuality(sfz::Synth::ProcessMode::ProcessFreewheeling, quality);
+     synth.setNumVoices(polyphony);
+     synth.enableFreeWheeling();
++    synth.setPreloadSize(1u << 24); // MONQUE SOUND LAB: load whole samples so offline renders are deterministic
+ 
+     bool logging = params.count("log") > 0;
+     std::string logFilename {};
+@@ -164,6 +166,50 @@ int main(int argc, char** argv)
+     };
+ 
+     ERROR_IF(!synth.loadSfzFile(sfzPath), "There was an error loading the SFZ file.");
++
++    if (params.count("events")) {
++        struct Ev { uint64_t frame; int on; int note; int vel; };
++        std::vector<Ev> evs;
++        std::ifstream evFile(params["events"].as<std::string>());
++        ERROR_IF(!evFile, "Can't read events file");
++        Ev e {};
++        while (evFile >> e.frame >> e.on >> e.note >> e.vel)
++            evs.push_back(e);
++        std::stable_sort(evs.begin(), evs.end(), [](const Ev& a, const Ev& b) {
++            return a.frame != b.frame ? a.frame < b.frame : a.on < b.on; // note-offs first
++        });
++        drwav out;
++        drwav_data_format fmt {};
++        fmt.container = drwav_container_riff;
++        fmt.format = DR_WAVE_FORMAT_IEEE_FLOAT;
++        fmt.channels = 2;
++        fmt.sampleRate = sampleRate;
++        fmt.bitsPerSample = 32;
++        ERROR_IF(!drwav_init_file_write(&out, outputPath.c_str(), &fmt, nullptr), "Error opening the wav file for writing");
++        sfz::AudioBuffer<float> buf { 2, blockSize };
++        sfz::Buffer<float> inter { 2 * blockSize };
++        uint64_t frame = 0;
++        size_t i = 0;
++        const uint64_t lastFrame = evs.empty() ? 0 : evs.back().frame;
++        while (true) {
++            while (i < evs.size() && evs[i].frame < frame + blockSize) {
++                const int delay = static_cast<int>(evs[i].frame - frame);
++                if (evs[i].on)
++                    synth.noteOn(delay, evs[i].note, evs[i].vel);
++                else
++                    synth.noteOff(delay, evs[i].note, 0);
++                ++i;
++            }
++            synth.renderBlock(buf);
++            sfz::writeInterleaved(buf.getConstSpan(0), buf.getConstSpan(1), absl::MakeSpan(inter));
++            drwav_write_pcm_frames(&out, blockSize, inter.data());
++            frame += blockSize;
++            if (i >= evs.size() && frame > lastFrame && sfz::meanSquared<float>(inter) < 1e-14f)
++                break;
++        }
++        drwav_uninit(&out);
++        return 0;
++    }
+     LOG_INFO(synth.getNumRegions() << " regions in the SFZ.");
+ 
+     fmidi_smf_u midiFile { fmidi_smf_file_read(u8EncodedString(midiPath).c_str()) };
