@@ -1,6 +1,6 @@
 """Export rendered pieces into SOUNDVAULT: OGG + M4A files, metadata, and the Monster Quest 0 project.
 
-Usage: to_soundvault.py <render_dir> <soundvault_repo>
+Usage: to_soundvault.py <render_dir> <soundvault_repo> [piece_id ...]  (default: every rendered piece)
 Writes public/sounds/bgm/monque-<name>.{ogg,m4a}, adds/updates their records in data/sounds.json
 (the scanner keeps these fields) and the project in data/projects.json. Run `npm run scan` afterwards.
 """
@@ -12,6 +12,8 @@ from pathlib import Path
 
 src, repo = Path(sys.argv[1]), Path(sys.argv[2])
 render = {r['id']: r for r in json.loads((src / 'render.json').read_text())}
+if sys.argv[3:]:
+    render = {k: v for k, v in render.items() if k in sys.argv[3:]}
 bgm = repo / 'public/sounds/bgm'
 bgm.mkdir(parents=True, exist_ok=True)
 PROJECT = {'id': 'monque', 'name': 'モンスタークエスト0', 'type': 'ゲーム', 'archived': False}
@@ -41,7 +43,8 @@ for pid, r in render.items():
             'loopStart': 0 if r['loop'] else None,
             'loopEnd': r['loop_end_samples'],
             'sampleRate': 48000,
-            'volume': 0.8,
+            # quieter masters (dynamic pieces held back by the -1 dBTP ceiling) get a higher playback volume
+            'volume': min(1.0, round(0.8 * 10 ** ((-16 - r.get('lufs', -16)) / 20), 2)),
             'license': 'Original',
             'source': SOURCE,
             'author': 'Claude Code (MONQUE SOUND LAB) for Yuji5124',

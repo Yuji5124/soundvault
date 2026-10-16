@@ -228,7 +228,8 @@ def render_piece(pid, vsco, sfizz, out):
                 loop_seconds=n / SR, loop_end_samples=n if looping else None, sample_rate=SR, parts=sorted(arr.parts), notes=sum(len(v) for v in arr.parts.values()),
                 render_seconds=round(elapsed, 1), child_peak_rss_mb=round(resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss / 1024),
                 lufs=round(meter.integrated_loudness(mix), 2), gain_db=round(gain, 2), seam_jump_ratio=None if jump is None else round(jump, 3),
-                range_warnings=arr.warnings, balance=balance)
+                range_warnings=arr.warnings, balance=balance,
+                part_peaks_db={p: round(float(20 * np.log10(np.max(np.abs(x)) + 1e-12) + gain), 1) for p, x in sorted(stems.items(), key=lambda kv: -np.max(np.abs(kv[1])))[:6]})
     print(json.dumps({k: v for k, v in info.items() if k not in ('parts',)}, ensure_ascii=False))
     return info
 

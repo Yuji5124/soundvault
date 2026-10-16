@@ -748,6 +748,142 @@
     "size": 1459657
   },
   {
+    "id": "monque_title_c_m4a",
+    "name": "モンクエ タイトルC「時の扉」",
+    "file": "/sounds/bgm/monque-title-c.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "C# minor → E major",
+      "主人公の主題（短調→長調）"
+    ],
+    "duration": 76.8,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3686400,
+    "sampleRate": 48000,
+    "volume": 0.97,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（C案）。C# minor → E major・100 BPM・4/4・32小節。A 木の打楽器の「チクタク」とハープ、ピチカートの上でオーボエが短調の主題 → B 第1バイオリン、ホルンの対旋律 → C ホ長調で主題が総奏、トランペットの対旋律 → D 時計の音に戻り、オーボエとグロッケン。ループ: 0〜3686400 サンプル（48kHz、76.800秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-16T04:00:56.412Z",
+    "format": "m4a",
+    "size": 1871281
+  },
+  {
+    "id": "monque_title_c_ogg",
+    "name": "モンクエ タイトルC「時の扉」",
+    "file": "/sounds/bgm/monque-title-c.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "C# minor → E major",
+      "主人公の主題（短調→長調）"
+    ],
+    "duration": 76.8,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3686400,
+    "sampleRate": 48000,
+    "volume": 0.97,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（C案）。C# minor → E major・100 BPM・4/4・32小節。A 木の打楽器の「チクタク」とハープ、ピチカートの上でオーボエが短調の主題 → B 第1バイオリン、ホルンの対旋律 → C ホ長調で主題が総奏、トランペットの対旋律 → D 時計の音に戻り、オーボエとグロッケン。ループ: 0〜3686400 サンプル（48kHz、76.800秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-16T04:00:56.412Z",
+    "format": "ogg",
+    "size": 1790994
+  },
+  {
+    "id": "monque_title_d_m4a",
+    "name": "モンクエ タイトルD「旅立ちの朝」",
+    "file": "/sounds/bgm/monque-title-d.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "C major → D major",
+      "主人公の主題（ファンファーレ）"
+    ],
+    "duration": 61.44,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2949120,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（D案）。C major → D major・125 BPM・4/4・32小節。A トランペットのファンファーレ、刻む弦と行進の小太鼓 → B フルート＋クラリネットの歌、ハープ → C 全音上のニ長調へ転調、バイオリン＋フルートとホルン → D ハ長調へ戻って総奏、ティンパニのロールで頭へ。ループ: 0〜2949120 サンプル（48kHz、61.440秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-16T04:00:56.412Z",
+    "format": "m4a",
+    "size": 1496790
+  },
+  {
+    "id": "monque_title_d_ogg",
+    "name": "モンクエ タイトルD「旅立ちの朝」",
+    "file": "/sounds/bgm/monque-title-d.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "monque",
+      "orchestral",
+      "正式8枠",
+      "C major → D major",
+      "主人公の主題（ファンファーレ）"
+    ],
+    "duration": 61.44,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2949120,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "BGM01 タイトル / オープニング（D案）。C major → D major・125 BPM・4/4・32小節。A トランペットのファンファーレ、刻む弦と行進の小太鼓 → B フルート＋クラリネットの歌、ハープ → C 全音上のニ長調へ転調、バイオリン＋フルートとホルン → D ハ長調へ戻って総奏、ティンパニのロールで頭へ。ループ: 0〜2949120 サンプル（48kHz、61.440秒）。",
+    "collections": [
+      "MONQUE BGM 30"
+    ],
+    "projectIds": [
+      "monque"
+    ],
+    "createdAt": "2026-10-16T04:00:56.412Z",
+    "format": "ogg",
+    "size": 1500155
+  },
+  {
     "id": "monque_dungeon_m4a",
     "name": "モンクエ ダンジョン",
     "file": "/sounds/bgm/monque-dungeon.m4a",
