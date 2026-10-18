@@ -4,5 +4,11 @@
     "name": "モンスタークエスト0",
     "type": "ゲーム",
     "archived": false
+  },
+  {
+    "id": "sonova",
+    "name": "SONOVA",
+    "type": "音楽研究",
+    "archived": false
   }
 ]
