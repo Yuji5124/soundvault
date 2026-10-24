@@ -150,7 +150,8 @@
       "SONOVA EXPERIMENTS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:03.985Z",
     "sonova": {
@@ -261,7 +262,8 @@
       "SONOVA EXPERIMENTS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:05.336Z",
     "sonova": {
@@ -372,7 +374,8 @@
       "SONOVA EXPERIMENTS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:06.845Z",
     "sonova": {
@@ -453,6 +456,521 @@
     }
   },
   {
+    "id": "sonova_exp_0004_ogg",
+    "name": "SONOVA-EXP-0004 Rings Answer the Tower",
+    "file": "/sounds/bgm/sonova-exp-0004-rings-answer-the-tower.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "v1.1",
+      "bloom"
+    ],
+    "duration": 30,
+    "format": "ogg",
+    "size": 595773,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-v11-bloom-05",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。SONOVA v1.1: 写真の楽器3つが相互作用する30秒 (bloom)。各アーク16曲から選んだ候補。84 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:24.525Z",
+    "sonova": {
+      "workNumber": "SONOVA-EXP-0004",
+      "title": "Rings Answer the Tower",
+      "assetType": "EXPERIMENT",
+      "bpm": 84,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-v11-bloom-05",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/v11/phase2.json",
+        "experiments/v11/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "b893c3d24f055c79019cd89c28cea156cda7f2da409847576128707955eefaba",
+      "verification": {
+        "ok": true,
+        "durationSec": 30,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -17.293,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_exp_0005_ogg",
+    "name": "SONOVA-EXP-0005 Facade Dialogue",
+    "file": "/sounds/bgm/sonova-exp-0005-facade-dialogue.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "v1.1",
+      "tide"
+    ],
+    "duration": 30,
+    "format": "ogg",
+    "size": 575982,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-v11-tide-01",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。SONOVA v1.1: 写真の楽器3つが相互作用する30秒 (tide)。各アーク16曲から選んだ候補。83 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:25.666Z",
+    "sonova": {
+      "workNumber": "SONOVA-EXP-0005",
+      "title": "Facade Dialogue",
+      "assetType": "EXPERIMENT",
+      "bpm": 83,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-v11-tide-01",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/v11/phase2.json",
+        "experiments/v11/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "1c6426b3ea93ffb523244c41068a2740592b11cac14e8c21a5a2378070c98a74",
+      "verification": {
+        "ok": true,
+        "durationSec": 30,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -17.049,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_exp_0006_ogg",
+    "name": "SONOVA-EXP-0006 Sunset Resolves",
+    "file": "/sounds/bgm/sonova-exp-0006-sunset-resolves.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "v1.1",
+      "cascade"
+    ],
+    "duration": 30,
+    "format": "ogg",
+    "size": 580226,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-v11-cascade-15",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。SONOVA v1.1: 写真の楽器3つが相互作用する30秒 (cascade)。各アーク16曲から選んだ候補。78 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:26.883Z",
+    "sonova": {
+      "workNumber": "SONOVA-EXP-0006",
+      "title": "Sunset Resolves",
+      "assetType": "EXPERIMENT",
+      "bpm": 78,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-v11-cascade-15",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/v11/phase2.json",
+        "experiments/v11/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "fb4db07032cd995b5d90ebe049564104d20f3787addaa931c9e90126da9b1eab",
+      "verification": {
+        "ok": true,
+        "durationSec": 30,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -17.097,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_grow_0001_ogg",
+    "name": "SONOVA-GROW-0001 Sound Grows the Instrument",
+    "file": "/sounds/bgm/sonova-grow-0001-sound-grows-the-instrument.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "grow",
+      "sonova-002"
+    ],
+    "duration": 83.367,
+    "format": "ogg",
+    "size": 1666974,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-grow-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。SONOVA 002: 演奏するほど楽器の共鳴構造が進化する。98 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:00.355Z",
+    "sonova": {
+      "workNumber": "SONOVA-GROW-0001",
+      "title": "Sound Grows the Instrument",
+      "assetType": "EXPERIMENT",
+      "bpm": 98,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-grow-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/s002/SONOVA-GROW-0001.json",
+        "experiments/s002/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "0175ad22019b91df825bd2b2d62afa3cfa89aeb5f96af87cfda2365dc36d164f",
+      "verification": {
+        "ok": true,
+        "durationSec": 83.367,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -3.17,
+        "rmsDbfs": -16,
+        "silentRatio": 0.013
+      }
+    }
+  },
+  {
+    "id": "sonova_heal_0001_ogg",
+    "name": "SONOVA-HEAL-0001 The Music Heals Itself",
+    "file": "/sounds/bgm/sonova-heal-0001-the-music-heals-itself.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "heal",
+      "sonova-003"
+    ],
+    "duration": 80.8,
+    "format": "ogg",
+    "size": 1715189,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-heal-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。SONOVA 003: 欠落・不協和を聴いて検知し、別の楽器が補う。",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:02.881Z",
+    "sonova": {
+      "workNumber": "SONOVA-HEAL-0001",
+      "title": "The Music Heals Itself",
+      "assetType": "EXPERIMENT",
+      "bpm": null,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-heal-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/s003/SONOVA-HEAL-0001.json",
+        "experiments/s003/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "1bd4c2bc73121269035f49a75cadafe6aa97ac26b7aa52747617d63ccf5eac86",
+      "verification": {
+        "ok": true,
+        "durationSec": 80.8,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -16.001,
+        "silentRatio": 0.032
+      }
+    }
+  },
+  {
     "id": "sonova_inst_0001_ogg",
     "name": "SONOVA-INST-0001 bark instrument",
     "file": "/sounds/fx/sonova-inst-0001-bark-instrument.ogg",
@@ -481,7 +999,8 @@
       "SONOVA INSTRUMENTS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:01.380Z",
     "sonova": {
@@ -565,7 +1084,8 @@
       "SONOVA INSTRUMENTS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:01.952Z",
     "sonova": {
@@ -649,7 +1169,8 @@
       "SONOVA INSTRUMENTS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:02.458Z",
     "sonova": {
@@ -705,6 +1226,422 @@
     }
   },
   {
+    "id": "sonova_od_exp_a_ogg",
+    "name": "SONOVA-OD-EXP-A ORCHESTRA × DIGITAL SHARED CYCLE",
+    "file": "/sounds/bgm/sonova-od-exp-a-orchestra-digital-shared-cycle.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "orchestra",
+      "digital",
+      "vsco2-ce"
+    ],
+    "duration": 32.5,
+    "format": "ogg",
+    "size": 836290,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 48000,
+    "license": "Original (オーケストラは VSCO 2 Community Edition, CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed od-phase2-A",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。ORCHESTRA × DIGITAL Phase 2 の実験 A: 1. 異なるコード進行でも統一感が生まれるか — RHYTHM BRIDGE (共通周期 2 秒・アクセント共有) + 音域の分離",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:19.061Z",
+    "sonova": {
+      "workNumber": "SONOVA-OD-EXP-A",
+      "title": "ORCHESTRA × DIGITAL SHARED CYCLE",
+      "assetType": "EXPERIMENT",
+      "bpm": null,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "od-phase2-A",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/orchestra-digital/phase2/EXP-A.json",
+        "experiments/orchestra-digital/phase2/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "dfbc4e9833bb5384491a3baf1e65cc4ade7e1eab4102c41ef15170ea6cf7e46e",
+      "verification": {
+        "ok": true,
+        "durationSec": 32.5,
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "peakDbfs": -4.082,
+        "rmsDbfs": -22.194,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_od_exp_b_ogg",
+    "name": "SONOVA-OD-EXP-B ORCHESTRA × DIGITAL CONTOUR",
+    "file": "/sounds/bgm/sonova-od-exp-b-orchestra-digital-contour.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "orchestra",
+      "digital",
+      "vsco2-ce"
+    ],
+    "duration": 34.5,
+    "format": "ogg",
+    "size": 775268,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 48000,
+    "license": "Original (オーケストラは VSCO 2 Community Edition, CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed od-phase2-B",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。ORCHESTRA × DIGITAL Phase 2 の実験 B: 2. 同じ旋律でなくても同じ音楽に聞こえるか — MOTIF BRIDGE (輪郭とリズム比だけを共有、音高の世界は別)",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:20.350Z",
+    "sonova": {
+      "workNumber": "SONOVA-OD-EXP-B",
+      "title": "ORCHESTRA × DIGITAL CONTOUR",
+      "assetType": "EXPERIMENT",
+      "bpm": null,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "od-phase2-B",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/orchestra-digital/phase2/EXP-B.json",
+        "experiments/orchestra-digital/phase2/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "68ae54e7d0d8e81ab2642cb09a42636074ae70e30968c08016591fad02b8ff94",
+      "verification": {
+        "ok": true,
+        "durationSec": 34.5,
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "peakDbfs": -1.464,
+        "rmsDbfs": -21.297,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_od_exp_c_ogg",
+    "name": "SONOVA-OD-EXP-C ORCHESTRA × DIGITAL BREATH",
+    "file": "/sounds/bgm/sonova-od-exp-c-orchestra-digital-breath.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "orchestra",
+      "digital",
+      "vsco2-ce"
+    ],
+    "duration": 32.5,
+    "format": "ogg",
+    "size": 755903,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 48000,
+    "license": "Original (オーケストラは VSCO 2 Community Edition, CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed od-phase2-C",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。ORCHESTRA × DIGITAL Phase 2 の実験 C: 3. リズムを共有せずに強弱だけで統一できるか — DYNAMICS BRIDGE (共通の緊張曲線 T(t)・総休止・スフォルツァンド)",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:21.731Z",
+    "sonova": {
+      "workNumber": "SONOVA-OD-EXP-C",
+      "title": "ORCHESTRA × DIGITAL BREATH",
+      "assetType": "EXPERIMENT",
+      "bpm": null,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "od-phase2-C",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/orchestra-digital/phase2/EXP-C.json",
+        "experiments/orchestra-digital/phase2/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "674048195bf3a3377b8fc90ff2738fef4c0864bd1ea05f2a54016a38342ceb5d",
+      "verification": {
+        "ok": true,
+        "durationSec": 32.5,
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "peakDbfs": -1,
+        "rmsDbfs": -23.715,
+        "silentRatio": 0.06
+      }
+    }
+  },
+  {
+    "id": "sonova_od_exp_d_ogg",
+    "name": "SONOVA-OD-EXP-D ORCHESTRA × DIGITAL BOW INTO WIRE",
+    "file": "/sounds/bgm/sonova-od-exp-d-orchestra-digital-bow-into-wire.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "orchestra",
+      "digital",
+      "vsco2-ce"
+    ],
+    "duration": 34.5,
+    "format": "ogg",
+    "size": 710973,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 48000,
+    "license": "Original (オーケストラは VSCO 2 Community Edition, CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed od-phase2-D",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。ORCHESTRA × DIGITAL Phase 2 の実験 D: 4. オーケストラの音色を電子音へ連続的に変形できるか (+5. 第三の現象) — TIMBRE BRIDGE (倍音分析 → 加算合成の双子 → 変形) と逆方向 (電子のリズム → 弦・ティンパニ・ハープ)",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:23.257Z",
+    "sonova": {
+      "workNumber": "SONOVA-OD-EXP-D",
+      "title": "ORCHESTRA × DIGITAL BOW INTO WIRE",
+      "assetType": "EXPERIMENT",
+      "bpm": null,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "od-phase2-D",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/orchestra-digital/phase2/EXP-D.json",
+        "experiments/orchestra-digital/phase2/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "c9d32f94a2b62f60ccda60c4cc070141405924dd3d7c82bd9a765fb33ba2aee8",
+      "verification": {
+        "ok": true,
+        "durationSec": 34.5,
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "peakDbfs": -2.18,
+        "rmsDbfs": -20.695,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
     "id": "sonova_rock_0001_ogg",
     "name": "SONOVA-ROCK-0001 Everything Is an Amplifier",
     "file": "/sounds/bgm/sonova-rock-0001-everything-is-an-amplifier.ogg",
@@ -740,7 +1677,8 @@
       "SONOVA COMPOSITIONS"
     ],
     "projectIds": [
-      "sonova"
+      "sonova",
+      "sonova-zig"
     ],
     "createdAt": "2026-10-18T11:13:13.903Z",
     "sonova": {
@@ -827,6 +1765,632 @@
     }
   },
   {
+    "id": "sonova_rock_grow_0001_ogg",
+    "name": "SONOVA-ROCK-GROW-0001 Grown in the Feedback",
+    "file": "/sounds/bgm/sonova-rock-grow-0001-grown-in-the-feedback.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "rock",
+      "rock-series",
+      "grow"
+    ],
+    "duration": 227.948,
+    "format": "ogg",
+    "size": 5127592,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-rock-grow-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "完成曲。音が楽器を育てるロック版。演奏するほど楽器の共鳴が進化する。116 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:28:45.403Z",
+    "sonova": {
+      "workNumber": "SONOVA-ROCK-GROW-0001",
+      "title": "Grown in the Feedback",
+      "assetType": "COMPOSITION",
+      "bpm": 116,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-rock-grow-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/rock-series/SONOVA-ROCK-GROW-0001.json",
+        "experiments/rock-series/SONOVA-ROCK-GROW-0001.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "0551a0ddab62993a08eff991e349e3f51b0d01352f80bcf5c69cf47e420f2060",
+      "verification": {
+        "ok": true,
+        "durationSec": 227.948,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.429,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_rock_heal_0001_ogg",
+    "name": "SONOVA-ROCK-HEAL-0001 Broken Strings, Living Band",
+    "file": "/sounds/bgm/sonova-rock-heal-0001-broken-strings-living-band.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "rock",
+      "rock-series",
+      "heal"
+    ],
+    "duration": 164.5,
+    "format": "ogg",
+    "size": 3746907,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-rock-heal-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "完成曲。音楽が自分を修復するロック版。壊れた弦や欠けたパートを、聴いて別の楽器が補う。162 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:28:51.804Z",
+    "sonova": {
+      "workNumber": "SONOVA-ROCK-HEAL-0001",
+      "title": "Broken Strings, Living Band",
+      "assetType": "COMPOSITION",
+      "bpm": 162,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-rock-heal-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/rock-series/SONOVA-ROCK-HEAL-0001.json",
+        "experiments/rock-series/SONOVA-ROCK-HEAL-0001.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "92f74c77ef0044c25fb284fea25898cef458c1c6fabd4bbcc150aa6b7e975602",
+      "verification": {
+        "ok": true,
+        "durationSec": 164.5,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.452,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_rock_space_0001_ogg",
+    "name": "SONOVA-ROCK-SPACE-0001 The Room Is the Amp",
+    "file": "/sounds/bgm/sonova-rock-space-0001-the-room-is-the-amp.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "rock",
+      "rock-series",
+      "space"
+    ],
+    "duration": 200.864,
+    "format": "ogg",
+    "size": 4702216,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-rock-space-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "完成曲。部屋の共鳴モードが音を決め、音が部屋を変形させるロック版。132 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:28:57.776Z",
+    "sonova": {
+      "workNumber": "SONOVA-ROCK-SPACE-0001",
+      "title": "The Room Is the Amp",
+      "assetType": "COMPOSITION",
+      "bpm": 132,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-rock-space-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/rock-series/SONOVA-ROCK-SPACE-0001.json",
+        "experiments/rock-series/SONOVA-ROCK-SPACE-0001.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "a31cebf47fa3b26958ca55e8826d7184522bb45a995e34b5ca94ec90fa5c399e",
+      "verification": {
+        "ok": true,
+        "durationSec": 200.864,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.104,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_space_0001_ogg",
+    "name": "SONOVA-SPACE-0001 Sound Makes the Room",
+    "file": "/sounds/bgm/sonova-space-0001-sound-makes-the-room.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "space",
+      "sonova-004"
+    ],
+    "duration": 77,
+    "format": "ogg",
+    "size": 1784028,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-space-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。SONOVA 004: 部屋の共鳴モードが音を決め、音が部屋を変形させる。",
+    "collections": [
+      "SONOVA EXPERIMENTS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:05.515Z",
+    "sonova": {
+      "workNumber": "SONOVA-SPACE-0001",
+      "title": "Sound Makes the Room",
+      "assetType": "EXPERIMENT",
+      "bpm": null,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-space-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/s004/SONOVA-SPACE-0001.json",
+        "experiments/s004/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "3b98510f38acce313377ea42a582377cd9c9197d83b1e6e6580a97a2c1980130",
+      "verification": {
+        "ok": true,
+        "durationSec": 77,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -17.014,
+        "silentRatio": 0.045
+      }
+    }
+  },
+  {
+    "id": "sonova_toyriot_0001_ogg",
+    "name": "SONOVA-TOYRIOT-0001 Tin Wings Riot",
+    "file": "/sounds/bgm/sonova-toyriot-0001-tin-wings-riot.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "rock",
+      "toyriot",
+      "voicevox",
+      "vocal"
+    ],
+    "duration": 155.198,
+    "format": "ogg",
+    "size": 3603454,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:玄野武宏 / VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-toyriot-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "完成曲。90年代後半の日本のインダストリアル/オルタナ・ポップロックの作り方を参考にしたオリジナル曲。ラジオのコラージュ、メガホンの歌、ドラムマシン、男声 (VOICEVOX)。172 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:17.596Z",
+    "sonova": {
+      "workNumber": "SONOVA-TOYRIOT-0001",
+      "title": "Tin Wings Riot",
+      "assetType": "COMPOSITION",
+      "bpm": 172,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-toyriot-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/toyriot/SONOVA-TOYRIOT-0001.json",
+        "experiments/toyriot/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "290e108cc29894dea54743e9257ec9e74bf035f56456b3fb594ddfe1ea03c569",
+      "verification": {
+        "ok": true,
+        "durationSec": 155.198,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.33,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_xrock_0001_ogg",
+    "name": "SONOVA-XROCK-0001 Five Ways Out of the Song",
+    "file": "/sounds/bgm/sonova-xrock-0001-five-ways-out-of-the-song.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "rock",
+      "xrock",
+      "paulstretch",
+      "tempo-canon",
+      "talkbox"
+    ],
+    "duration": 216.362,
+    "format": "ogg",
+    "size": 4895555,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed sonova-xrock-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "完成曲。ロックを時間・テンポ・リズム・音高・声の5方向に押し広げる拡張ロック。145 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:12.661Z",
+    "sonova": {
+      "workNumber": "SONOVA-XROCK-0001",
+      "title": "Five Ways Out of the Song",
+      "assetType": "COMPOSITION",
+      "bpm": 145,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "sonova-xrock-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/xrock/SONOVA-XROCK-0001.json",
+        "experiments/xrock/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "f98e35b0ce4705175cda5a919ccc01d827882d6447caf38ed12764816b1c4281",
+      "verification": {
+        "ok": true,
+        "durationSec": 216.362,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.29,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
     "id": "spark_001",
     "name": "Spark 001",
     "file": "/sounds/fx/spark-001.wav",
@@ -845,6 +2409,752 @@
     "favorite": false,
     "notes": "",
     "createdAt": "2026-10-06T13:11:09.047Z"
+  },
+  {
+    "id": "sonova_zig_happy_tears_a_ogg",
+    "name": "ZIG-HAPPY-TEARS-A HAPPY TEARS A BRASS RIFF",
+    "file": "/sounds/bgm/sonova-zig-happy-tears-a-happy-tears-a-brass-riff.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "zig",
+      "happy-tears",
+      "freaktion",
+      "orchestral",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 30.2,
+    "format": "ogg",
+    "size": 684703,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:玄野武宏 / VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要。オーケストラは VSCO 2 Community Edition (CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed happy-a",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。FREAKTION SONG 002 / Phase 0 の30秒デモ A。最もライブで盛り上がる。歪みギターとバリトンサックスが1つのリフを分け合う160 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:36.188Z",
+    "sonova": {
+      "workNumber": "ZIG-HAPPY-TEARS-A",
+      "title": "HAPPY TEARS A BRASS RIFF",
+      "assetType": "EXPERIMENT",
+      "bpm": 160,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "happy-a",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/happytears/happytears.json"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "de192d072d68ad3d884e2d3b744dca132db2f78014f73b7fb32684d803b93663",
+      "verification": {
+        "ok": true,
+        "durationSec": 30.2,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1.865,
+        "rmsDbfs": -17.396,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_zig_happy_tears_b_ogg",
+    "name": "ZIG-HAPPY-TEARS-B HAPPY TEARS B ORCHESTRA RIOT",
+    "file": "/sounds/bgm/sonova-zig-happy-tears-b-happy-tears-b-orchestra-riot.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "zig",
+      "happy-tears",
+      "freaktion",
+      "orchestral",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 30.93,
+    "format": "ogg",
+    "size": 704670,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:玄野武宏 / VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要。オーケストラは VSCO 2 Community Edition (CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed happy-b",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。FREAKTION SONG 002 / Phase 0 の30秒デモ B。幸福と悲しみが最も同時に感じられる。弦と金管が前、ロックバンドが下で走る156 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:37.220Z",
+    "sonova": {
+      "workNumber": "ZIG-HAPPY-TEARS-B",
+      "title": "HAPPY TEARS B ORCHESTRA RIOT",
+      "assetType": "EXPERIMENT",
+      "bpm": 156,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "happy-b",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/happytears/happytears.json"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "df53b040fcffd88913c8103ffd67e435ab91964311a82472a46ea1e63f981295",
+      "verification": {
+        "ok": true,
+        "durationSec": 30.93,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1.015,
+        "rmsDbfs": -17.559,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_zig_happy_tears_c_ogg",
+    "name": "ZIG-HAPPY-TEARS-C HAPPY TEARS C BROKEN PARADE",
+    "file": "/sounds/bgm/sonova-zig-happy-tears-c-happy-tears-c-broken-parade.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "zig",
+      "happy-tears",
+      "freaktion",
+      "orchestral",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 30.56,
+    "format": "ogg",
+    "size": 654501,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:玄野武宏 / VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要。オーケストラは VSCO 2 Community Edition (CC0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed happy-c",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。FREAKTION SONG 002 / Phase 0 の30秒デモ C。最も予想外で、もう一度聴きたくなる。行進曲が何度もつまずく158 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:38.459Z",
+    "sonova": {
+      "workNumber": "ZIG-HAPPY-TEARS-C",
+      "title": "HAPPY TEARS C BROKEN PARADE",
+      "assetType": "EXPERIMENT",
+      "bpm": 158,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "happy-c",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/happytears/happytears.json"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "5976530d2233c9d8feec76307f5b3ad3f80dd378c0b3a6699b9927fd2148829c",
+      "verification": {
+        "ok": true,
+        "durationSec": 30.56,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -17.298,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_zig_nobody_a_ogg",
+    "name": "ZIG-NOBODY-A NOBODY ON AIR A ROCK BROADCAST",
+    "file": "/sounds/bgm/sonova-zig-nobody-a-nobody-on-air-a-rock-broadcast.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "zig",
+      "nobody-on-air",
+      "freaktion",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 30,
+    "format": "ogg",
+    "size": 683531,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:玄野武宏 / VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed nobody-a",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。FREAKTION SONG 001 の30秒デモ A。疾走するロック × キャッチーなサビ。ライブで一番盛り上がる方向160 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:33.042Z",
+    "sonova": {
+      "workNumber": "ZIG-NOBODY-A",
+      "title": "NOBODY ON AIR A ROCK BROADCAST",
+      "assetType": "EXPERIMENT",
+      "bpm": 160,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "nobody-a",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/nobody/nobody.json"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "0f162651ddca122af30c33fbb37af2cb4c25ff1ed4b5a4fb3922eafaff4db78b",
+      "verification": {
+        "ok": true,
+        "durationSec": 30,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -4.274,
+        "rmsDbfs": -17.868,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_zig_nobody_b_ogg",
+    "name": "ZIG-NOBODY-B NOBODY ON AIR B GHOST FREQUENCY",
+    "file": "/sounds/bgm/sonova-zig-nobody-b-nobody-on-air-b-ghost-frequency.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "zig",
+      "nobody-on-air",
+      "freaktion",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 30,
+    "format": "ogg",
+    "size": 703726,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed nobody-b",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。FREAKTION SONG 001 の30秒デモ B。不思議なラジオ × 美しいメロディ。少年が未来の放送を見つける物語140 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:34.146Z",
+    "sonova": {
+      "workNumber": "ZIG-NOBODY-B",
+      "title": "NOBODY ON AIR B GHOST FREQUENCY",
+      "assetType": "EXPERIMENT",
+      "bpm": 140,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "nobody-b",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/nobody/nobody.json"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "3a956f2e67f461bcc5be8af1a8171b6227584113a65977f68e8f6ae7b352c6d0",
+      "verification": {
+        "ok": true,
+        "durationSec": 30,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1.34,
+        "rmsDbfs": -17.908,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_zig_nobody_c_ogg",
+    "name": "ZIG-NOBODY-C NOBODY ON AIR C FREAKTION REACTION",
+    "file": "/sounds/bgm/sonova-zig-nobody-c-nobody-on-air-c-freaktion-reaction.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "experiment",
+      "generative",
+      "zig",
+      "nobody-on-air",
+      "freaktion",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 30,
+    "format": "ogg",
+    "size": 658162,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:雀松朱司 / VOICEVOX:剣崎雌雄 / VOICEVOX:白上虎太郎 / VOICEVOX:麒ヶ島宗麟) — 公開時はクレジット表記が必要",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed nobody-c",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "音楽実験。FREAKTION SONG 001 の30秒デモ C。突然変異する音楽 × ポップなフック。途中で全部ひっくり返り、口ずさめるサビに着地する150 BPM。",
+    "collections": [
+      "SONOVA EXPERIMENTS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:35.156Z",
+    "sonova": {
+      "workNumber": "ZIG-NOBODY-C",
+      "title": "NOBODY ON AIR C FREAKTION REACTION",
+      "assetType": "EXPERIMENT",
+      "bpm": 150,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "nobody-c",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/nobody/nobody.json"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "a437bf14157ab234cff46a94abead3320c81f1b62e581da24c35788dfde45b1a",
+      "verification": {
+        "ok": true,
+        "durationSec": 30,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -2.899,
+        "rmsDbfs": -17.658,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
+    "id": "sonova_zig_psylo_0001_ogg",
+    "name": "ZIG-PSYLO-0001 PSYLO",
+    "file": "/sounds/bgm/sonova-zig-psylo-0001-psylo.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "zig",
+      "psylo",
+      "rock",
+      "vocal",
+      "voicevox"
+    ],
+    "duration": 166.5,
+    "format": "ogg",
+    "size": 3928460,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original。歌声は VOICEVOX (VOICEVOX:玄野武宏 / VOICEVOX:白上虎太郎) — 公開時はクレジット表記が必要。英語アナウンスは Piper + LibriTTS (CC BY 4.0)",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed zig-psylo-0001",
+    "author": "SONOVA (Claude Code) for Yuji5124",
+    "favorite": false,
+    "notes": "完成曲。ZIG のフック「サイロー」。TOYRIOT の作り方で1曲に。英語のラジオアナウンス、サビ1のあとから変則リフ、男声 (音程の安定化つき)。160 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS",
+      "ZIG"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-24T11:29:31.885Z",
+    "sonova": {
+      "workNumber": "ZIG-PSYLO-0001",
+      "title": "PSYLO",
+      "assetType": "COMPOSITION",
+      "bpm": 160,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "zig-psylo-0001",
+      "algorithms": [],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0"
+      },
+      "sonovaFiles": [
+        "experiments/psylo/ZIG-PSYLO-0001.json",
+        "experiments/psylo/REPORT.md"
+      ],
+      "createdAt": "2026-10-24T11:28:37.757Z",
+      "wavSha256": "42a7954760fb383a6763dd25c467b7027c0114ed183cf00ceb06b2f0d8230a05",
+      "verification": {
+        "ok": true,
+        "durationSec": 166.5,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.374,
+        "silentRatio": 0
+      }
+    }
   },
   {
     "id": "monque_stone_m4a",
