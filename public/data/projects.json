@@ -10,5 +10,11 @@
     "name": "SONOVA",
     "type": "音楽研究",
     "archived": false
+  },
+  {
+    "id": "sonova-zig",
+    "name": "SONOVA Project ZIG",
+    "type": "音楽制作",
+    "archived": false
   }
 ]
