@@ -67,3 +67,19 @@ scripts/scan-sounds.mjs
 src/main.ts          browser UI and audio controls
 src/styles.css       responsive dark asset-browser UI
 ```
+
+## ZIG デイリー曲 (毎日 7:00 JST、歌入り、承認制)
+
+毎日 **7:00 (日本時間)** に、Claude Sonnet 5.5 の**定期タスク**が [SONOVA](https://github.com/Yuji5124/SONOVA) で ZIG 名義のオリジナル曲 (**歌入りのロック**) を 1 曲作り、**Pull Request として提案**します。歌詞はその日のために新しく書かれ (`--lyrics`)、歌声は VOICEVOX Engine が使えれば VOICEVOX (男声)、使えなければ SONOVA 内蔵の歌手です。**PR をマージするまで `main` は変わりません** (マージ = 承認。マージすると既存の `deploy.yml` が公開します)。
+
+- 曲名・ファイル名・タグは `YYMMDD_` で始まります (例: `261027_ZIG_TIN LANTERN` / `261027_ZIG_tin-lantern.ogg`)。日付は日本時間です。
+- 同じ日に再実行しても二重登録しません (その日の曲があれば何も作らない)。前の提案 (`zig-daily/*` の未マージ PR) が残っている間は新しい曲を作らず、実行の報告に残します。
+- 歌詞 (日本語・ローマ字)・作詞者・歌声のエンジン・クレジット・生成条件・参照元・音声の sha256・検証結果は `data/zig-daily/` に、曲と同じ PR で記録されます。既存のレコードと音声は変更しません。
+- **VOICEVOX の声で歌った曲は、公開時に `VOICEVOX:玄野武宏` などのクレジット表記が必要です** (曲の `license` に入ります)。
+- 無料です (有料 API・クラウド AI の API キー・GPU なし)。実行は Claude の定期タスクで、ご利用中の Claude プランの範囲内です。
+
+手動で動かすには: Actions → "ZIG daily song" → Run workflow (歌なしのインストゥルメンタル版。`dry_run` をオンにすると何も変更せず予定だけを表示)。このワークフローには定期実行を設定していません (定期タスクと同じ日の枠を取り合わないため)。
+
+**最初に 1 回だけ必要な設定** (手動ワークフローで PR を作る場合): Settings → Actions → General → Workflow permissions で **"Allow GitHub Actions to create and approve pull requests"** をオンにします。
+
+制限: 定期タスクの開始時刻は混雑で数分遅れることがあります。詳細は SONOVA の `docs/zig-daily.md`。
