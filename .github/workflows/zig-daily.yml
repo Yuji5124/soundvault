@@ -175,7 +175,7 @@ jobs:
             if [[ "$code" == "??" && "$path" == "$song" ]]; then new_audio=$((new_audio + 1))
             elif [[ "$code" == "??" && "$path" =~ ^data/zig-daily/[A-Za-z0-9._-]+\.json$ ]]; then new_record=$((new_record + 1))
             elif [[ "$code" == " M" && "$path" =~ ^(public/)?data/(sounds|projects)\.json$ ]]; then :
-            else bad="${bad}"$'\n'"${code} ${path}"
+            else bad="${bad}%0A${code} ${path}"
             fi
           done < <(git status --porcelain --untracked-files=all)
           if [ -n "$bad" ] || [ "$new_audio" != "1" ] || [ "$new_record" != "1" ]; then
