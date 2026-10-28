@@ -1,5 +1,263 @@
 [
   {
+    "id": "sonova_zig_daily_261028_ogg",
+    "name": "261028_ZIG_DAWN LINE",
+    "file": "/sounds/bgm/261028_ZIG_dawn-line.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "zig",
+      "zig-daily",
+      "rock",
+      "vocal",
+      "original",
+      "261028"
+    ],
+    "duration": 213.532,
+    "format": "ogg",
+    "size": 4984268,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed zig-daily-261028",
+    "author": "ZIG",
+    "favorite": false,
+    "notes": "完成曲。ZIG名義のデイリー曲 261028 (2026-10-28)。E minor・歌入りのロック (歌詞はオリジナル、作詞: Claude (Sonnet 5.5))。参照元と生成条件は sonova.references / sonova.generation に記録。124 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS",
+      "ZIG",
+      "ZIG DAILY"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-27T22:15:20.747Z",
+    "sonova": {
+      "zigDaily": {
+        "stamp": "261028",
+        "dateIso": "2026-10-28",
+        "timezone": "Asia/Tokyo",
+        "sequence": 1,
+        "version": "sonova-zig-daily/1.0.0",
+        "vocal": {
+          "engine": "SONOVA 内蔵の歌手 (物理モデル)",
+          "credits": [],
+          "author": "Claude (Sonnet 5.5)"
+        }
+      },
+      "references": {
+        "brief": "ユーザー指示: 「hideさんの曲をベースに」ZIG名義のオリジナル曲を毎日1曲",
+        "basis": [
+          "PSYENCE WORKSHOP の制作上の考え方 (SONOVA の experiments/psylo/REPORT.md と experiments/toyriot/REPORT.md に記録された ZIG-PSYLO-0001 / TOYRIOT の作り方)",
+          "90年代後半の日本のインダストリアル/オルタナ・ポップロックに共通する一般的な音楽的特徴: 重いドロップチューニングのギターと主音のパワーコード、トライトーンと短2度の混じる角のある響き、小節をまたぐ変則アクセントのリフ",
+          "歌入りの作り方: SONOVA-TOYRIOT-0001 / ZIG-PSYLO-0001 / ZIG-HAPPY-TEARS と同じ (メガホンのAメロ、ロックボーカル処理のサビ)"
+        ],
+        "techniques": [
+          "ポリメーター: 5ステップのセル Rm.Pm を小節線をまたいで流す (TidalCycles の考え方)",
+          "ユークリッドリズムの毎小節回転 (Toussaint / Strudel の iter の考え方)",
+          "3+3+3+3+2+2 のアクセント、32分のスタッター"
+        ],
+        "noCopying": "既存曲の旋律・歌詞・音源・声は一切使用していない。音は SONOVA が自作の画像素材から合成し、旋律・リフ・フックはシード (zig-daily-YYMMDD) から新たに生成した。歌詞はこの日のために新しく書いたオリジナル。歌声は VOICEVOX の合成音声 (または SONOVA 内蔵の歌手) で、実在の歌手の声ではない。"
+      },
+      "lyrics": {
+        "author": "Claude (Sonnet 5.5)",
+        "text": {
+          "verse1": "最初の電車がホームに入る / 窓に朝日がうつる / 鞄の中にある / 昨日の涙のこと",
+          "verse2": "星は消えてもいい / 暗いトンネルのあと / 光はまた見える / 僕の速い駆け足",
+          "pre": "まだ間に合う / ホームを蹴れ",
+          "chorus": "乗れ 走れ 夜明けの線路 / 壊れた景色を昔にして / 帰らないけど 少し前へ / 乗れ 走れ 今はじまる"
+        },
+        "romaji": {
+          "verse1": "sa-i-sho no de-n-sha ga ho-mu ni ha-i-ru / ma-do ni a-sa-hi ga u-tsu-ru / ka-ba-n no na-ka ni a-ru / ki-no-o no na-mi-da no ko-to",
+          "verse2": "ho-shi wa ki-e te mo i-i / ku-ra-i to-n-ne-ru no a-to / hi-ka-ri wa ma-ta mi-e-ru / bo-ku no ha-ya-i ka-ke-a-shi",
+          "pre": "ma-da ma-ni-a-u / ho-mu wo ke-re",
+          "chorus": "no-re ha-shi-re yo-a-ke no se-n-ro / ko-wa-re-ta ke-shi-ki wo mu-ka-shi ni shi-te / ka-e-ra-na-i ke-do su-ko-shi ma-e e / no-re ha-shi-re i-ma ha-ji-ma-ru"
+        }
+      },
+      "generation": {
+        "key": "E minor",
+        "bpm": 124,
+        "durationSec": 213.532258,
+        "riff": "Rm.nP...mP..mmPP",
+        "sections": [
+          {
+            "name": "intro",
+            "start": 0,
+            "bars": 6
+          },
+          {
+            "name": "riffA",
+            "start": 11.612903,
+            "bars": 4
+          },
+          {
+            "name": "verse1",
+            "start": 19.354839,
+            "bars": 8
+          },
+          {
+            "name": "pre1",
+            "start": 34.83871,
+            "bars": 4
+          },
+          {
+            "name": "chorus1",
+            "start": 42.580645,
+            "bars": 8
+          },
+          {
+            "name": "riffB",
+            "start": 58.064516,
+            "bars": 4
+          },
+          {
+            "name": "verse2",
+            "start": 65.806452,
+            "bars": 8
+          },
+          {
+            "name": "pre2",
+            "start": 81.290323,
+            "bars": 4
+          },
+          {
+            "name": "chorus2",
+            "start": 89.032258,
+            "bars": 8
+          },
+          {
+            "name": "bridge",
+            "start": 104.516129,
+            "bars": 8
+          },
+          {
+            "name": "solo",
+            "start": 120,
+            "bars": 8
+          },
+          {
+            "name": "breakdown",
+            "start": 135.483871,
+            "bars": 4
+          },
+          {
+            "name": "riffA2",
+            "start": 143.225806,
+            "bars": 4
+          },
+          {
+            "name": "pre3",
+            "start": 150.967742,
+            "bars": 4
+          },
+          {
+            "name": "chorus3",
+            "start": 158.709677,
+            "bars": 8
+          },
+          {
+            "name": "chorus4",
+            "start": 174.193548,
+            "bars": 8
+          },
+          {
+            "name": "riffA3",
+            "start": 189.677419,
+            "bars": 4
+          },
+          {
+            "name": "outro",
+            "start": 197.419355,
+            "bars": 6
+          }
+        ],
+        "vocals": "あり: SONOVA 内蔵の歌手 (物理モデル)。VOICEVOX を使えなかった理由: VOICEVOX Engine が起動していなかったため。歌詞はこの日のために書いたオリジナル",
+        "runtime": "ローカル CPU のみ。有料 API・クラウド AI・API キー・GPU は不使用",
+        "renderMs": 103983
+      },
+      "workNumber": "ZIG-DAILY-261028",
+      "title": "DAWN LINE",
+      "assetType": "COMPOSITION",
+      "bpm": 124,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "zig-daily-261028",
+      "algorithms": [
+        "拡張 Karplus–Strong + アンプ帰還",
+        "WDF ダイオードクリッパー",
+        "モーダル打楽器",
+        "セルオートマトンのリズム",
+        "変則リフ (ポリメーター / ユークリッドリズムの回転)"
+      ],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0",
+        "rock": "sonova-rock/1.0.0",
+        "rock_render": "sonova-rock-render/1.0.0",
+        "psylo_riffs": "sonova-psylo/1.1.0",
+        "zig_daily": "sonova-zig-daily/1.0.0"
+      },
+      "sonovaFiles": [],
+      "createdAt": "2026-10-27T22:15:16.732Z",
+      "wavSha256": "858580a8e1e9805a4f282d081712eadec995583d58003fce47624fb38c147ccb",
+      "verification": {
+        "ok": true,
+        "durationSec": 213.532,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.569,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
     "id": "calm_loop_001",
     "name": "Calm Loop 001",
     "file": "/sounds/bgm/calm-loop-001.wav",
