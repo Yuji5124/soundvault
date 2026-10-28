@@ -1,0 +1,252 @@
+{
+  "schema": "zig-daily/1",
+  "stamp": "261029",
+  "dateIso": "2026-10-29",
+  "timezone": "Asia/Tokyo",
+  "workNumber": "ZIG-DAILY-261029",
+  "title": "RAINBOW LOCAL",
+  "displayName": "261029_ZIG_RAINBOW LOCAL",
+  "seed": "zig-daily-261029",
+  "generation": {
+    "key": "G minor",
+    "bpm": 112,
+    "durationSec": 235.928571,
+    "riff": "Rn.n.RRn....PPnm",
+    "sections": [
+      {
+        "name": "intro",
+        "start": 0,
+        "bars": 6
+      },
+      {
+        "name": "riffA",
+        "start": 12.857143,
+        "bars": 4
+      },
+      {
+        "name": "verse1",
+        "start": 21.428571,
+        "bars": 8
+      },
+      {
+        "name": "pre1",
+        "start": 38.571429,
+        "bars": 4
+      },
+      {
+        "name": "chorus1",
+        "start": 47.142857,
+        "bars": 8
+      },
+      {
+        "name": "riffB",
+        "start": 64.285714,
+        "bars": 4
+      },
+      {
+        "name": "verse2",
+        "start": 72.857143,
+        "bars": 8
+      },
+      {
+        "name": "pre2",
+        "start": 90,
+        "bars": 4
+      },
+      {
+        "name": "chorus2",
+        "start": 98.571429,
+        "bars": 8
+      },
+      {
+        "name": "bridge",
+        "start": 115.714286,
+        "bars": 8
+      },
+      {
+        "name": "solo",
+        "start": 132.857143,
+        "bars": 8
+      },
+      {
+        "name": "breakdown",
+        "start": 150,
+        "bars": 4
+      },
+      {
+        "name": "riffA2",
+        "start": 158.571429,
+        "bars": 4
+      },
+      {
+        "name": "pre3",
+        "start": 167.142857,
+        "bars": 4
+      },
+      {
+        "name": "chorus3",
+        "start": 175.714286,
+        "bars": 8
+      },
+      {
+        "name": "chorus4",
+        "start": 192.857143,
+        "bars": 8
+      },
+      {
+        "name": "riffA3",
+        "start": 210,
+        "bars": 4
+      },
+      {
+        "name": "outro",
+        "start": 218.571429,
+        "bars": 6
+      }
+    ],
+    "derivations": [
+      {
+        "choice": "key",
+        "value": "G minor",
+        "from": "series",
+        "rule": "日付シード zig-daily-261029 から決めた主音 (G minor)。最低弦を主音まで下げたドロップチューニングで重く鳴らす"
+      },
+      {
+        "choice": "bpm",
+        "value": 112,
+        "from": "series",
+        "rule": "日付シード zig-daily-261029 から決めたテンポ (112–168 BPM の範囲)"
+      },
+      {
+        "choice": "tuning",
+        "value": "drop G",
+        "from": "key",
+        "rule": "最低弦を主音に下げる (ドロップチューニング) と主音のパワーコードが最も重く鳴る"
+      },
+      {
+        "choice": "riff.hits",
+        "value": 10,
+        "from": "bark.rhythm.pulses",
+        "rule": "ギター素材のエッジ密度 (発音数) → リフの音数"
+      },
+      {
+        "choice": "drums.ca_rule",
+        "value": 150,
+        "from": "tower.resonance.amount",
+        "rule": "ドラム素材の反復の強さでセルオートマトンのルールを選ぶ"
+      },
+      {
+        "choice": "drums.ca_seed",
+        "value": "x...x...x...x...",
+        "from": "tower.rhythm",
+        "rule": "ドラム素材のユークリッドリズムを最初の世代にする"
+      },
+      {
+        "choice": "lead.slide",
+        "value": 0.6030936,
+        "from": "sunset.attack",
+        "rule": "ゆっくり立ち上がる素材ほどリードが音をつなげて (スライドで) 弾く"
+      },
+      {
+        "choice": "form.bars",
+        "value": "intro=6, outro=6",
+        "from": "series",
+        "rule": "ラジオのイントロ (「テスト、テスト」) と、最後にラジオへ戻る時間"
+      },
+      {
+        "choice": "riff.irregular",
+        "value": "riffB, verse2, riffA2, riffA3, outro",
+        "from": "series",
+        "rule": "3+3+3+3+2+2 のアクセント、5拍子のセルのポリメーター (TidalCycles の {…}%16 の考え方)、毎小節回転するユークリッドリズム (Toussaint / Strudel の iter)、32分の ply。スネアは 2・4 拍のまま"
+      }
+    ],
+    "engines": {
+      "analyzer": "sonova-analyzer/1.0.0",
+      "dna": "sonova-dna/1.0.0",
+      "synth": "sonova-synth/1.0.0",
+      "generator": "sonova-generator/1.0.0",
+      "composition": "sonova-composition/1.0.0",
+      "rock": "sonova-rock/1.0.0",
+      "rock_render": "sonova-rock-render/1.0.0",
+      "psylo_riffs": "sonova-psylo/1.1.0",
+      "zig_daily": "sonova-zig-daily/1.0.0"
+    },
+    "renderMs": 186414
+  },
+  "references": {
+    "brief": "ユーザー指示: 「hideさんの曲をベースに」ZIG名義のオリジナル曲を毎日1曲",
+    "basis": [
+      "PSYENCE WORKSHOP の制作上の考え方 (SONOVA の experiments/psylo/REPORT.md と experiments/toyriot/REPORT.md に記録された ZIG-PSYLO-0001 / TOYRIOT の作り方)",
+      "90年代後半の日本のインダストリアル/オルタナ・ポップロックに共通する一般的な音楽的特徴: 重いドロップチューニングのギターと主音のパワーコード、トライトーンと短2度の混じる角のある響き、小節をまたぐ変則アクセントのリフ",
+      "歌入りの作り方: SONOVA-TOYRIOT-0001 / ZIG-PSYLO-0001 / ZIG-HAPPY-TEARS と同じ (メガホンのAメロ、ロックボーカル処理のサビ)"
+    ],
+    "techniques": [
+      "ポリメーター: 5ステップのセル Rm.Pm を小節線をまたいで流す (TidalCycles の考え方)",
+      "ユークリッドリズムの毎小節回転 (Toussaint / Strudel の iter の考え方)",
+      "3+3+3+3+2+2 のアクセント、32分のスタッター"
+    ],
+    "noCopying": "既存曲の旋律・歌詞・音源・声は一切使用していない。音は SONOVA が自作の画像素材から合成し、旋律・リフ・フックはシード (zig-daily-YYMMDD) から新たに生成した。歌詞はこの日のために新しく書いたオリジナル。歌声は VOICEVOX の合成音声 (または SONOVA 内蔵の歌手) で、実在の歌手の声ではない。"
+  },
+  "vocal": {
+    "engine": "SONOVA 内蔵の歌手 (物理モデル)",
+    "credits": [],
+    "fallbackReason": "VOICEVOX Engine が起動していなかったため",
+    "lyrics": {
+      "author": "Claude (Sonnet 5.5)",
+      "text": {
+        "verse1": "雨上がりの駅のホーム / 水たまりに空が映る / かばんの中の切符は / まだ使っていない",
+        "verse2": "すれ違う人の波 / ため息も笑い声も / 僕の願いは何だ / ただ本当のことだけ",
+        "pre": "また始まる / 走れ未来へ",
+        "chorus": "走れ電車よ はるか先へ / 虹の下をくぐるんだ / 迷わない声で歌え / 走れ電車 前を見て"
+      },
+      "romaji": {
+        "verse1": "a-me-a-ga-ri no e-ki no ho-o-mu / mi-zu-ta-ma-ri ni so-ra ga u-tsu-ru / ka-ba-n no na-ka no ki-p-pu wa / ma-da tsu-ka-t-te i-na-i",
+        "verse2": "su-re-chi-ga-u hi-to no na-mi / ta-me-i-ki mo wa-ra-i-go-e mo / bo-ku no ne-ga-i wa na-n-da / ta-da ho-n-to-o no ko-to da-ke",
+        "pre": "ma-ta ha-ji-ma-ru / ha-shi-re mi-ra-i e",
+        "chorus": "ha-shi-re de-n-sha yo ha-ru-ka sa-ki e / ni-ji no shi-ta wo ku-gu-ru-n-da / ma-yo-wa-na-i ko-e de u-ta-e / ha-shi-re de-n-sha ma-e wo mi-te"
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "bark.png",
+      "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+    },
+    {
+      "name": "tower.png",
+      "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+    },
+    {
+      "name": "sunset.png",
+      "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+    }
+  ],
+  "audio": {
+    "file": "/sounds/bgm/261029_ZIG_rainbow-local.ogg",
+    "format": "ogg",
+    "wavSha256": "82728e4f454b66a73eb843f2257bc42d876ca7a04febbd4f2e73334e96ade920",
+    "fileSha256": "4b5a86ea091b890629cfba8e4c8c9696df6d6f42d969b2df15715cfa1fab3c57",
+    "verification": {
+      "ok": true,
+      "problems": [],
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "durationSec": 235.929,
+      "peakDbfs": -1,
+      "rmsDbfs": -13.665,
+      "clippedSamples": 0,
+      "dcOffset": -0.000002482,
+      "silences": [],
+      "silentRatio": 0,
+      "stereoCorrelation": 0.811
+    }
+  },
+  "registration": {
+    "status": "registered",
+    "soundvaultId": "sonova_zig_daily_261029_ogg",
+    "registeredAt": "2026-10-28T22:12:18.450Z",
+    "vaultGitHead": "8f5d7030eae344a78a87abaa834f371aad0a249c"
+  },
+  "license": "Original"
+}
