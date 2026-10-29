@@ -516,6 +516,264 @@
     }
   },
   {
+    "id": "sonova_zig_daily_261030_ogg",
+    "name": "261030_ZIG_HOLLOW DREAM",
+    "file": "/sounds/bgm/261030_ZIG_hollow-dream.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "sonova",
+      "composition",
+      "generative",
+      "zig",
+      "zig-daily",
+      "rock",
+      "vocal",
+      "original",
+      "261030"
+    ],
+    "duration": 183.259,
+    "format": "ogg",
+    "size": 4275007,
+    "loop": false,
+    "volume": 0.8,
+    "sampleRate": 44100,
+    "license": "Original",
+    "source": "SONOVA (https://github.com/Yuji5124/sonova): bark.png, tower.png, sunset.png から生成。seed zig-daily-261030",
+    "author": "ZIG",
+    "favorite": false,
+    "notes": "完成曲。ZIG名義のデイリー曲 261030 (2026-10-30)。A minor・歌入りのロック (歌詞はオリジナル、作詞: Claude (Sonnet 5.5))。参照元と生成条件は sonova.references / sonova.generation に記録。145 BPM。",
+    "collections": [
+      "SONOVA COMPOSITIONS",
+      "ZIG",
+      "ZIG DAILY"
+    ],
+    "projectIds": [
+      "sonova",
+      "sonova-zig"
+    ],
+    "createdAt": "2026-10-29T22:10:28.958Z",
+    "sonova": {
+      "zigDaily": {
+        "stamp": "261030",
+        "dateIso": "2026-10-30",
+        "timezone": "Asia/Tokyo",
+        "sequence": 1,
+        "version": "sonova-zig-daily/1.0.0",
+        "vocal": {
+          "engine": "SONOVA 内蔵の歌手 (物理モデル)",
+          "credits": [],
+          "author": "Claude (Sonnet 5.5)"
+        }
+      },
+      "references": {
+        "brief": "ユーザー指示: 「hideさんの曲をベースに」ZIG名義のオリジナル曲を毎日1曲",
+        "basis": [
+          "PSYENCE WORKSHOP の制作上の考え方 (SONOVA の experiments/psylo/REPORT.md と experiments/toyriot/REPORT.md に記録された ZIG-PSYLO-0001 / TOYRIOT の作り方)",
+          "90年代後半の日本のインダストリアル/オルタナ・ポップロックに共通する一般的な音楽的特徴: 重いドロップチューニングのギターと主音のパワーコード、トライトーンと短2度の混じる角のある響き、小節をまたぐ変則アクセントのリフ",
+          "歌入りの作り方: SONOVA-TOYRIOT-0001 / ZIG-PSYLO-0001 / ZIG-HAPPY-TEARS と同じ (メガホンのAメロ、ロックボーカル処理のサビ)"
+        ],
+        "techniques": [
+          "ポリメーター: 5ステップのセル Rm.Pm を小節線をまたいで流す (TidalCycles の考え方)",
+          "ユークリッドリズムの毎小節回転 (Toussaint / Strudel の iter の考え方)",
+          "3+3+3+3+2+2 のアクセント、32分のスタッター"
+        ],
+        "noCopying": "既存曲の旋律・歌詞・音源・声は一切使用していない。音は SONOVA が自作の画像素材から合成し、旋律・リフ・フックはシード (zig-daily-YYMMDD) から新たに生成した。歌詞はこの日のために新しく書いたオリジナル。歌声は VOICEVOX の合成音声 (または SONOVA 内蔵の歌手) で、実在の歌手の声ではない。"
+      },
+      "lyrics": {
+        "author": "Claude (Sonnet 5.5)",
+        "text": {
+          "verse1": "終電のホームに / 立っている僕と / 消えた蛍光灯 / 未来はまだ眠ってる",
+          "verse2": "鞄の中には / 欲張りなかけら / 捨てることもできず / 握って歩いてる",
+          "pre": "空っぽの夢を / まだ捨てない",
+          "chorus": "走れ 走れ 夜明けへ / 空っぽの夢を抱いて / 暗いホームを蹴って / 朝になろうよ 今"
+        },
+        "romaji": {
+          "verse1": "shu-u-de-n no ho-o-mu ni / ta-t-te-i-ru bo-ku to / ki-e-ta ke-i-ko-o-to-o / mi-ra-i wa ma-da ne-mu-t-te-ru",
+          "verse2": "ka-ba-n no na-ka ni wa / yo-ku-ba-ri na ka-ke-ra / su-te-ru ko-to mo de-ki-zu / ni-gi-t-te a-ru-i-te-ru",
+          "pre": "ka-ra-p-po no yu-me wo / ma-da su-te-na-i",
+          "chorus": "ha-shi-re ha-shi-re yo-a-ke e / ka-ra-p-po no yu-me wo da-i-te / ku-ra-i ho-o-mu wo ke-t-te / a-sa ni na-ro-o yo i-ma"
+        }
+      },
+      "generation": {
+        "key": "A minor",
+        "bpm": 145,
+        "durationSec": 183.258621,
+        "riff": "R..P..nnmm..nPRP",
+        "sections": [
+          {
+            "name": "intro",
+            "start": 0,
+            "bars": 6
+          },
+          {
+            "name": "riffA",
+            "start": 9.931034,
+            "bars": 4
+          },
+          {
+            "name": "verse1",
+            "start": 16.551724,
+            "bars": 8
+          },
+          {
+            "name": "pre1",
+            "start": 29.793103,
+            "bars": 4
+          },
+          {
+            "name": "chorus1",
+            "start": 36.413793,
+            "bars": 8
+          },
+          {
+            "name": "riffB",
+            "start": 49.655172,
+            "bars": 4
+          },
+          {
+            "name": "verse2",
+            "start": 56.275862,
+            "bars": 8
+          },
+          {
+            "name": "pre2",
+            "start": 69.517241,
+            "bars": 4
+          },
+          {
+            "name": "chorus2",
+            "start": 76.137931,
+            "bars": 8
+          },
+          {
+            "name": "bridge",
+            "start": 89.37931,
+            "bars": 8
+          },
+          {
+            "name": "solo",
+            "start": 102.62069,
+            "bars": 8
+          },
+          {
+            "name": "breakdown",
+            "start": 115.862069,
+            "bars": 4
+          },
+          {
+            "name": "riffA2",
+            "start": 122.482759,
+            "bars": 4
+          },
+          {
+            "name": "pre3",
+            "start": 129.103448,
+            "bars": 4
+          },
+          {
+            "name": "chorus3",
+            "start": 135.724138,
+            "bars": 8
+          },
+          {
+            "name": "chorus4",
+            "start": 148.965517,
+            "bars": 8
+          },
+          {
+            "name": "riffA3",
+            "start": 162.206897,
+            "bars": 4
+          },
+          {
+            "name": "outro",
+            "start": 168.827586,
+            "bars": 6
+          }
+        ],
+        "vocals": "あり: SONOVA 内蔵の歌手 (物理モデル)。VOICEVOX を使えなかった理由: VOICEVOX Engine が起動していなかったため。歌詞はこの日のために書いたオリジナル",
+        "runtime": "ローカル CPU のみ。有料 API・クラウド AI・API キー・GPU は不使用",
+        "renderMs": 152443
+      },
+      "workNumber": "ZIG-DAILY-261030",
+      "title": "HOLLOW DREAM",
+      "assetType": "COMPOSITION",
+      "bpm": 145,
+      "materialIds": [
+        "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd",
+        "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9",
+        "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+      ],
+      "sources": [
+        {
+          "name": "bark.png",
+          "type": "image",
+          "sha256": "9c88403909ba97785d83c03dc52aee7825b027bf99bdba451179449bd847e7bd"
+        },
+        {
+          "name": "tower.png",
+          "type": "image",
+          "sha256": "87643426093b15547d3e5395355bf0f9b91e427e3149ec58ddb1080e859706e9"
+        },
+        {
+          "name": "sunset.png",
+          "type": "image",
+          "sha256": "a9dac2de5055bd91177b63738740d939ba0a8170f67c14948acb2147728de077"
+        }
+      ],
+      "instrumentDna": [
+        {
+          "instrument_id": "inst-9c884039-187482",
+          "dna_hash": "07ba6016a573f9",
+          "name": "bark"
+        },
+        {
+          "instrument_id": "inst-87643426-187482",
+          "dna_hash": "1191843fa7154d",
+          "name": "tower"
+        },
+        {
+          "instrument_id": "inst-a9dac2de-187482",
+          "dna_hash": "0b97a5fc7f8689",
+          "name": "sunset"
+        }
+      ],
+      "seed": "zig-daily-261030",
+      "algorithms": [
+        "拡張 Karplus–Strong + アンプ帰還",
+        "WDF ダイオードクリッパー",
+        "モーダル打楽器",
+        "セルオートマトンのリズム",
+        "変則リフ (ポリメーター / ユークリッドリズムの回転)"
+      ],
+      "engines": {
+        "analyzer": "sonova-analyzer/1.0.0",
+        "dna": "sonova-dna/1.0.0",
+        "synth": "sonova-synth/1.0.0",
+        "generator": "sonova-generator/1.0.0",
+        "composition": "sonova-composition/1.0.0",
+        "rock": "sonova-rock/1.0.0",
+        "rock_render": "sonova-rock-render/1.0.0",
+        "psylo_riffs": "sonova-psylo/1.1.0",
+        "zig_daily": "sonova-zig-daily/1.0.0"
+      },
+      "sonovaFiles": [],
+      "createdAt": "2026-10-29T22:10:24.696Z",
+      "wavSha256": "25b2815a554be2573ddeee95c5b7d86fbb23d59032ca938dfc131d150de4287c",
+      "verification": {
+        "ok": true,
+        "durationSec": 183.259,
+        "sampleRate": 44100,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "peakDbfs": -1,
+        "rmsDbfs": -13.533,
+        "silentRatio": 0
+      }
+    }
+  },
+  {
     "id": "calm_loop_001",
     "name": "Calm Loop 001",
     "file": "/sounds/bgm/calm-loop-001.wav",
