@@ -30,6 +30,7 @@ INSTR = {
     'harp': ('Harp.sfz', 28, 101, 12), 'glock': ('Glockenspiel.sfz', 67, 96, 4),
     'svln': ('SViolinVib.sfz', 55, 96, 10), 'org': ('OrganQuiet.sfz', 36, 96, 11), 'bells': ('TubularBells.sfz', 60, 79, 13),
     'xylo': ('Xylophone.sfz', 55, 96, 1.5), 'hn_mute': ('FHornMute.sfz', 46, 77, 4),
+    'marimba': ('Marimba.sfz', 41, 96, 3),
     'timp': ('Timpani.sfz', 36, 60, 12), 'timp_roll': ('TimpaniRolls.sfz', 36, 60, 12), 'perc': ('GM-StylePerc.sfz', 32, 104, 12),
 }
 # GM-StylePerc keys in VSCO 2 CE
