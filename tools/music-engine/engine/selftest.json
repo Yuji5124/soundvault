@@ -1,0 +1,41 @@
+{
+ "project": "monque",
+ "piece": "mq_orch_victory",
+ "note": "Reference render made 2026-10-15 (Linux x86_64, sfizz f5c6e29 + patch, VSCO 2 CE SFZ 6dd651d). Other machines may differ in the last bits; the stats must still match within tolerance.",
+ "sha256": "279ce2c00f3da33d70900302d1ca8de48f19a09301ccf164de47b41bf6983b2a",
+ "stats": {
+  "frames": 672000,
+  "lufs": -16.0,
+  "peak_db": -4.51,
+  "envelope_db": [
+   -22.4,
+   -21.83,
+   -19.06,
+   -20.16,
+   -22.28,
+   -22.13,
+   -21.61,
+   -20.4,
+   -20.61,
+   -21.12,
+   -21.98,
+   -21.68,
+   -18.84,
+   -19.21,
+   -19.8,
+   -18.65,
+   -22.31,
+   -23.38,
+   -24.43,
+   -22.28,
+   -28.47,
+   -40.31,
+   -51.51,
+   -61.32,
+   -67.0,
+   -71.47,
+   -76.56,
+   -87.8
+  ]
+ }
+}

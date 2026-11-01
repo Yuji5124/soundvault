@@ -3,7 +3,8 @@ import json, sys
 from pathlib import Path
 import numpy as np, soundfile as sf
 sys.path.insert(0, str(Path(__file__).parent))
-from catalog import PIECES
+from project import load_catalog
+PIECES = load_catalog()
 from orchestrate import arrange
 out = Path(sys.argv[1]); SR = 48000; rows = []
 for pid, p in PIECES.items():

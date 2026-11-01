@@ -54,6 +54,10 @@ const sounds = await fetch('https://USERNAME.github.io/soundvault/data/sounds.js
 
 Every card also provides copy buttons for URL, path, plain JavaScript, Three.js, and Phaser snippets.
 
+## 音楽エンジン
+
+`tools/music-engine/` に、このライブラリのオーケストラBGM（モンスタークエスト0、甲殻類にも都合があります。）を作った仕組み一式があります。楽譜の書き方、セットアップ、承認済みの作風は [tools/music-engine/README.md](tools/music-engine/README.md) と [STYLE.md](tools/music-engine/STYLE.md) を参照してください。
+
 ## Licensing
 
 Each record carries `license`, `source`, and `author`. Use `CC0`, `CC-BY`, `Original`, or another precise value when known. Keep `UNKNOWN` until provenance is verified; the UI marks unknown assets with a warning. Demo WAV files are generated locally and contain no external audio.

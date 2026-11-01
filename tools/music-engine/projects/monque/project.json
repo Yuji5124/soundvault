@@ -1,0 +1,10 @@
+{
+  "id": "monque",
+  "name": "モンスタークエスト0",
+  "type": "ゲーム",
+  "file_prefix": "monque-",
+  "id_strip": "mq_orch_",
+  "name_prefix": "モンクエ ",
+  "tag": "monque",
+  "collection": "MONQUE BGM 30"
+}

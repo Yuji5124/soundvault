@@ -3,9 +3,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-import importlib  # noqa: E402
-import os  # noqa: E402
-PIECES = importlib.import_module(os.environ.get('MSL_CATALOG', 'catalog')).PIECES  # noqa: E402
+from project import load_catalog  # noqa: E402
+PIECES = load_catalog()
 from orchestrate import NOTE, arrange, parse_chord  # noqa: E402
 
 SR = 48000
