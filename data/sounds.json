@@ -6031,6 +6031,206 @@
     "size": 2877655
   },
   {
+    "id": "crust_battle_swarm_m4a",
+    "name": "甲殻類 戦闘1「群れを蹴散らせ」",
+    "file": "/sounds/bgm/crust-battle-swarm.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "戦闘",
+      "A Dorian"
+    ],
+    "duration": 64,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3072000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "通常戦闘（敵ロボットの群れ）。A Dorian・150 BPM・4/4・40小節。A 疾走する弦の刻みの上でバイオリン＋フルート、トランペットの対旋律 → B ホルンとチェロの英雄的な旋律 → C 打楽器を抜き、シロフォン＋フルートのスタッカートとマリンバで機械の群れ → A2 金管の打ち込みを加えて再び → D 総奏で頭へ。ループ: 0〜3072000 サンプル（48kHz、64.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T08:40:06.475Z",
+    "format": "m4a",
+    "size": 1570375
+  },
+  {
+    "id": "crust_battle_swarm_ogg",
+    "name": "甲殻類 戦闘1「群れを蹴散らせ」",
+    "file": "/sounds/bgm/crust-battle-swarm.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "戦闘",
+      "A Dorian"
+    ],
+    "duration": 64,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3072000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "通常戦闘（敵ロボットの群れ）。A Dorian・150 BPM・4/4・40小節。A 疾走する弦の刻みの上でバイオリン＋フルート、トランペットの対旋律 → B ホルンとチェロの英雄的な旋律 → C 打楽器を抜き、シロフォン＋フルートのスタッカートとマリンバで機械の群れ → A2 金管の打ち込みを加えて再び → D 総奏で頭へ。ループ: 0〜3072000 サンプル（48kHz、64.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T08:40:06.475Z",
+    "format": "ogg",
+    "size": 1456706
+  },
+  {
+    "id": "crust_battle_hunt_m4a",
+    "name": "甲殻類 戦闘2「巨大生物ハント」",
+    "file": "/sounds/bgm/crust-battle-hunt.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "戦闘",
+      "D minor (Phrygian ♭II)",
+      "潜行の動機（短調）"
+    ],
+    "duration": 61.44,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2949120,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "巨大生物ハント（ボス級の生物）。D minor (Phrygian ♭II)・125 BPM・4/4・32小節。A ドラが鳴り、ホルン＋トロンボーンの重い狩りの主題、木の太鼓とティンパニ、♭IIの和音 → B 第1バイオリンが追い上げ、刻むビオラとチェロ → C 総奏の狩りの主題、トランペットの対旋律 → D ファゴット＋チェロのフリギアの動き、金管の打ち込み。ループ: 0〜2949120 サンプル（48kHz、61.440秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T08:40:06.475Z",
+    "format": "m4a",
+    "size": 1496300
+  },
+  {
+    "id": "crust_battle_hunt_ogg",
+    "name": "甲殻類 戦闘2「巨大生物ハント」",
+    "file": "/sounds/bgm/crust-battle-hunt.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "戦闘",
+      "D minor (Phrygian ♭II)",
+      "潜行の動機（短調）"
+    ],
+    "duration": 61.44,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 2949120,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "巨大生物ハント（ボス級の生物）。D minor (Phrygian ♭II)・125 BPM・4/4・32小節。A ドラが鳴り、ホルン＋トロンボーンの重い狩りの主題、木の太鼓とティンパニ、♭IIの和音 → B 第1バイオリンが追い上げ、刻むビオラとチェロ → C 総奏の狩りの主題、トランペットの対旋律 → D ファゴット＋チェロのフリギアの動き、金管の打ち込み。ループ: 0〜2949120 サンプル（48kHz、61.440秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T08:40:06.475Z",
+    "format": "ogg",
+    "size": 1403382
+  },
+  {
+    "id": "crust_battle_guardian_m4a",
+    "name": "甲殻類 戦闘3「古代の守護者」",
+    "file": "/sounds/bgm/crust-battle-guardian.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "戦闘",
+      "B minor"
+    ],
+    "duration": 72,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3456000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ボス戦（古代文明の守護者）。B minor・160 BPM・3/4・64小節。3拍子で突き進む戦い。A 神殿のオルガンと鐘、バイオリン＋オーボエの旋律 → B ホルン＋トロンボーンの長い英雄的な旋律 → A2 トランペットの対旋律を加えて再び → C 総奏のクライマックス、オルガンと低音金管。ループ: 0〜3456000 サンプル（48kHz、72.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T08:40:06.475Z",
+    "format": "m4a",
+    "size": 1762772
+  },
+  {
+    "id": "crust_battle_guardian_ogg",
+    "name": "甲殻類 戦闘3「古代の守護者」",
+    "file": "/sounds/bgm/crust-battle-guardian.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "戦闘",
+      "B minor"
+    ],
+    "duration": 72,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 3456000,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ボス戦（古代文明の守護者）。B minor・160 BPM・3/4・64小節。3拍子で突き進む戦い。A 神殿のオルガンと鐘、バイオリン＋オーボエの旋律 → B ホルン＋トロンボーンの長い英雄的な旋律 → A2 トランペットの対旋律を加えて再び → C 総奏のクライマックス、オルガンと低音金管。ループ: 0〜3456000 サンプル（48kHz、72.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T08:40:06.475Z",
+    "format": "ogg",
+    "size": 1696549
+  },
+  {
     "id": "crust_deep_canyon_m4a",
     "name": "甲殻類 深海1「深海峡谷 3,000m」",
     "file": "/sounds/bgm/crust-deep-canyon.m4a",
