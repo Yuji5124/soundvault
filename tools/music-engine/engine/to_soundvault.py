@@ -1,8 +1,9 @@
-"""Export rendered pieces into SOUNDVAULT: OGG + M4A files, metadata, and the Monster Quest 0 project.
+"""Export rendered pieces into SOUNDVAULT: OGG + M4A files, metadata, and the project record.
 
 Usage: to_soundvault.py <render_dir> <soundvault_repo> [piece_id ...]  (default: every rendered piece)
-Writes public/sounds/bgm/monque-<name>.{ogg,m4a}, adds/updates their records in data/sounds.json
-(the scanner keeps these fields) and the project in data/projects.json. Run `npm run scan` afterwards.
+Writes public/sounds/bgm/<file_prefix><name>.{ogg,m4a}, adds/updates their records in data/sounds.json
+(the scanner keeps these fields) and the project in data/projects.json, using the selected
+project's project.json (MSL_PROJECT). Run `npm run scan` afterwards.
 """
 import json
 import subprocess
@@ -16,13 +17,14 @@ if sys.argv[3:]:
     render = {k: v for k, v in render.items() if k in sys.argv[3:]}
 bgm = repo / 'public/sounds/bgm'
 bgm.mkdir(parents=True, exist_ok=True)
-ENV = __import__('os').environ
-# defaults are Monster Quest 0; other games override them with MSL_* environment variables
-PROJECT = {'id': ENV.get('MSL_PROJECT_ID', 'monque'), 'name': ENV.get('MSL_PROJECT_NAME', 'モンスタークエスト0'), 'type': 'ゲーム', 'archived': False}
-FILE_PREFIX, ID_STRIP = ENV.get('MSL_FILE_PREFIX', 'monque-'), ENV.get('MSL_ID_STRIP', 'mq_orch_')
-NAME_PREFIX, TAG = ENV.get('MSL_NAME_PREFIX', 'モンクエ '), ENV.get('MSL_TAG', 'monque')
-COLLECTION = ENV.get('MSL_COLLECTION', 'MONQUE BGM 30')
-SOURCE = 'MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15'
+sys.path.insert(0, str(Path(__file__).parent))
+from project import settings  # noqa: E402
+
+CFG = settings()  # projects/<name>/project.json of the selected MSL_PROJECT
+PROJECT = {'id': CFG['id'], 'name': CFG['name'], 'type': CFG.get('type', 'ゲーム'), 'archived': False}
+FILE_PREFIX, ID_STRIP = CFG['file_prefix'], CFG['id_strip']
+NAME_PREFIX, TAG, COLLECTION = CFG['name_prefix'], CFG['tag'], CFG['collection']
+SOURCE = 'SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code'
 
 sounds_path = repo / 'data/sounds.json'
 sounds = json.loads(sounds_path.read_text())

@@ -26,9 +26,8 @@ from scipy.signal import resample_poly
 
 sys.path.insert(0, str(Path(__file__).parent))
 from orchestrate import INSTR, arrange  # noqa: E402
-import importlib  # noqa: E402
-import os  # noqa: E402
-PIECES = importlib.import_module(os.environ.get('MSL_CATALOG', 'catalog')).PIECES  # noqa: E402
+from project import load_catalog  # noqa: E402
+PIECES = load_catalog()
 from scipy.signal import fftconvolve  # noqa: E402
 
 SR = 48000
