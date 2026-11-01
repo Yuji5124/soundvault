@@ -226,6 +226,7 @@ class Arranger:
             'battle': [(0, BD, 0), (1, SN, -6), (2, BD, -4), (2.5, BD, -12), (3, SN, -2)],
             'tom': [(0, 77, -10), (1.5, 76, -20), (2, 77, -14), (3, 76, -18)],  # log drums
             'shuffle': [(0, BD, -10), (1, SN, -16), (1.67, SN, -30), (2, BD, -14), (3, SN, -16), (3.67, TAMB, -30)],
+            'battle3': [(0, BD, 0), (1, SN, -8), (2, SN, -12), (2.5, BD, -14)],  # driving 3/4
         }
         bars = self.section_bars(sections)
         for i, bar in enumerate(bars):
