@@ -16,5 +16,11 @@
     "name": "SONOVA Project ZIG",
     "type": "音楽制作",
     "archived": false
+  },
+  {
+    "id": "crustaceans",
+    "name": "甲殻類にも都合があります。",
+    "type": "ゲーム",
+    "archived": false
   }
 ]

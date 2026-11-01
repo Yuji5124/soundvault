@@ -5827,5 +5827,407 @@
     "createdAt": "2026-10-15T21:21:16.915Z",
     "format": "ogg",
     "size": 1188862
+  },
+  {
+    "id": "crust_title_dive_m4a",
+    "name": "甲殻類 タイトル1「深度五万メートルへ」",
+    "file": "/sounds/bgm/crust-title-dive.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "タイトル",
+      "D major (Lydian)",
+      "潜行の動機"
+    ],
+    "duration": 120,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5760000,
+    "sampleRate": 48000,
+    "volume": 0.81,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "タイトル画面（案1）。D major (Lydian)・80 BPM・4/4・40小節。序 ホルンの呼びかけとハープ → A チェロが潜行の動機（5-3-1-5）→ B バイオリン＋フルートが高く歌う → C 総奏、トランペットの対旋律とグロッケンのきらめき → D クラリネットで静まる → 序へ戻る。ループ: 0〜5760000 サンプル（48kHz、120.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "m4a",
+    "size": 2919585
+  },
+  {
+    "id": "crust_title_dive_ogg",
+    "name": "甲殻類 タイトル1「深度五万メートルへ」",
+    "file": "/sounds/bgm/crust-title-dive.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "タイトル",
+      "D major (Lydian)",
+      "潜行の動機"
+    ],
+    "duration": 120,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5760000,
+    "sampleRate": 48000,
+    "volume": 0.81,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "タイトル画面（案1）。D major (Lydian)・80 BPM・4/4・40小節。序 ホルンの呼びかけとハープ → A チェロが潜行の動機（5-3-1-5）→ B バイオリン＋フルートが高く歌う → C 総奏、トランペットの対旋律とグロッケンのきらめき → D クラリネットで静まる → 序へ戻る。ループ: 0〜5760000 サンプル（48kHz、120.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "ogg",
+    "size": 2743507
+  },
+  {
+    "id": "crust_title_city_m4a",
+    "name": "甲殻類 タイトル2「沈んだ都の夜明け」",
+    "file": "/sounds/bgm/crust-title-city.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "タイトル",
+      "E♭ major"
+    ],
+    "duration": 120,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5760000,
+    "sampleRate": 48000,
+    "volume": 0.88,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "タイトル画面（案2）。E♭ major・96 BPM・3/4・64小節。3拍子。A フルートのワルツ、ピチカートとハープ → B 第1バイオリン、ホルンの対旋律 → A2 バイオリン＋クラリネットで再び → C 夜明けの総奏、最後に属七で頭へ。ループ: 0〜5760000 サンプル（48kHz、120.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "m4a",
+    "size": 2916253
+  },
+  {
+    "id": "crust_title_city_ogg",
+    "name": "甲殻類 タイトル2「沈んだ都の夜明け」",
+    "file": "/sounds/bgm/crust-title-city.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "タイトル",
+      "E♭ major"
+    ],
+    "duration": 120,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5760000,
+    "sampleRate": 48000,
+    "volume": 0.88,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "タイトル画面（案2）。E♭ major・96 BPM・3/4・64小節。3拍子。A フルートのワルツ、ピチカートとハープ → B 第1バイオリン、ホルンの対旋律 → A2 バイオリン＋クラリネットで再び → C 夜明けの総奏、最後に属七で頭へ。ループ: 0〜5760000 サンプル（48kHz、120.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "ogg",
+    "size": 2928821
+  },
+  {
+    "id": "crust_title_whale_m4a",
+    "name": "甲殻類 タイトル3「大いなる回遊」",
+    "file": "/sounds/bgm/crust-title-whale.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "タイトル",
+      "B minor → D major",
+      "鯨の呼び声"
+    ],
+    "duration": 128,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 6144000,
+    "sampleRate": 48000,
+    "volume": 0.96,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "タイトル画面（案3）。B minor → D major・60 BPM・4/4・32小節。A ドラが鳴り、トロンボーン＋テューバの低い鯨の呼び声、弦のトレモロ → B 第1バイオリンの歌とビオラ → C ニ長調でホルン＋バイオリンが雄大に、フルートが上で重なる → D 再び深い呼び声、弓で擦るシンバル。ループ: 0〜6144000 サンプル（48kHz、128.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "m4a",
+    "size": 3112163
+  },
+  {
+    "id": "crust_title_whale_ogg",
+    "name": "甲殻類 タイトル3「大いなる回遊」",
+    "file": "/sounds/bgm/crust-title-whale.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "タイトル",
+      "B minor → D major",
+      "鯨の呼び声"
+    ],
+    "duration": 128,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 6144000,
+    "sampleRate": 48000,
+    "volume": 0.96,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "タイトル画面（案3）。B minor → D major・60 BPM・4/4・32小節。A ドラが鳴り、トロンボーン＋テューバの低い鯨の呼び声、弦のトレモロ → B 第1バイオリンの歌とビオラ → C ニ長調でホルン＋バイオリンが雄大に、フルートが上で重なる → D 再び深い呼び声、弓で擦るシンバル。ループ: 0〜6144000 サンプル（48kHz、128.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "ogg",
+    "size": 2877655
+  },
+  {
+    "id": "crust_deep_canyon_m4a",
+    "name": "甲殻類 深海1「深海峡谷 3,000m」",
+    "file": "/sounds/bgm/crust-deep-canyon.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "D Dorian"
+    ],
+    "duration": 180,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 8640000,
+    "sampleRate": 48000,
+    "volume": 0.87,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "深海フィールド（案1）。D Dorian・64 BPM・4/4・48小節。ニのドリア旋法、2小節ごとにゆっくり和音が動く。A フルート → B ホルンとクラリネット → C 静かな第1バイオリンと高いフルート。ハープとグロッケンの高音が毎小節ちがう位置で光る。ループ: 0〜8640000 サンプル（48kHz、180.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "m4a",
+    "size": 4370885
+  },
+  {
+    "id": "crust_deep_canyon_ogg",
+    "name": "甲殻類 深海1「深海峡谷 3,000m」",
+    "file": "/sounds/bgm/crust-deep-canyon.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "D Dorian"
+    ],
+    "duration": 180,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 8640000,
+    "sampleRate": 48000,
+    "volume": 0.87,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "深海フィールド（案1）。D Dorian・64 BPM・4/4・48小節。ニのドリア旋法、2小節ごとにゆっくり和音が動く。A フルート → B ホルンとクラリネット → C 静かな第1バイオリンと高いフルート。ハープとグロッケンの高音が毎小節ちがう位置で光る。ループ: 0〜8640000 サンプル（48kHz、180.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "ogg",
+    "size": 3876412
+  },
+  {
+    "id": "crust_deep_city_m4a",
+    "name": "甲殻類 深海2「沈没都市 8,000m」",
+    "file": "/sounds/bgm/crust-deep-city.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "F Lydian"
+    ],
+    "duration": 153.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 7372800,
+    "sampleRate": 48000,
+    "volume": 0.92,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "深海フィールド（案2）。F Lydian・75 BPM・4/4・48小節。ヘのリディア旋法。マリンバが水のように揺れ、遠くでチューブラーベル。A オーボエ → B ニ短調に翳ってクラリネット、弱音器付きホルン → C 第1バイオリンと高いフルート、弦トレモロ。ループ: 0〜7372800 サンプル（48kHz、153.600秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "m4a",
+    "size": 3730895
+  },
+  {
+    "id": "crust_deep_city_ogg",
+    "name": "甲殻類 深海2「沈没都市 8,000m」",
+    "file": "/sounds/bgm/crust-deep-city.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "F Lydian"
+    ],
+    "duration": 153.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 7372800,
+    "sampleRate": 48000,
+    "volume": 0.92,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "深海フィールド（案2）。F Lydian・75 BPM・4/4・48小節。ヘのリディア旋法。マリンバが水のように揺れ、遠くでチューブラーベル。A オーボエ → B ニ短調に翳ってクラリネット、弱音器付きホルン → C 第1バイオリンと高いフルート、弦トレモロ。ループ: 0〜7372800 サンプル（48kHz、153.600秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "ogg",
+    "size": 3572173
+  },
+  {
+    "id": "crust_deep_trench_m4a",
+    "name": "甲殻類 深海3「人類未踏の海溝 11,000m」",
+    "file": "/sounds/bgm/crust-deep-trench.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "C minor",
+      "鯨の呼び声"
+    ],
+    "duration": 153.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 7372800,
+    "sampleRate": 48000,
+    "volume": 0.83,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "深海フィールド（案3）。C minor・50 BPM・4/4・32小節。最も深く暗い曲。A チェロの旋律、トロンボーンとテューバが遠い鯨の声、弦トレモロとC音の持続 → B 上から差す光のような静かな高弦、ファゴット。ドラと弓で擦るシンバル。ループ: 0〜7372800 サンプル（48kHz、153.600秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "m4a",
+    "size": 3730808
+  },
+  {
+    "id": "crust_deep_trench_ogg",
+    "name": "甲殻類 深海3「人類未踏の海溝 11,000m」",
+    "file": "/sounds/bgm/crust-deep-trench.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "C minor",
+      "鯨の呼び声"
+    ],
+    "duration": 153.6,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 7372800,
+    "sampleRate": 48000,
+    "volume": 0.83,
+    "license": "Original",
+    "source": "MONQUE SOUND LAB: original score (MIDI) rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code, 2026-10-15",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "深海フィールド（案3）。C minor・50 BPM・4/4・32小節。最も深く暗い曲。A チェロの旋律、トロンボーンとテューバが遠い鯨の声、弦トレモロとC音の持続 → B 上から差す光のような静かな高弦、ファゴット。ドラと弓で擦るシンバル。ループ: 0〜7372800 サンプル（48kHz、153.600秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-01T00:33:34.531Z",
+    "format": "ogg",
+    "size": 3613327
   }
 ]

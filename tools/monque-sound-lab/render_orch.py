@@ -26,7 +26,9 @@ from scipy.signal import resample_poly
 
 sys.path.insert(0, str(Path(__file__).parent))
 from orchestrate import INSTR, arrange  # noqa: E402
-from catalog import PIECES  # noqa: E402
+import importlib  # noqa: E402
+import os  # noqa: E402
+PIECES = importlib.import_module(os.environ.get('MSL_CATALOG', 'catalog')).PIECES  # noqa: E402
 from scipy.signal import fftconvolve  # noqa: E402
 
 SR = 48000
@@ -44,7 +46,7 @@ SEAT = {
     'hn': (-0.35, 0.50, 0.04), 'hn_stac': (-0.35, 0.45, 0.0), 'tpt': (0.1, 0.42, 0.02), 'tpt_stac': (0.1, 0.42, 0.0),
     'tbn': (0.35, 0.45, 0.03), 'tbn_stac': (0.35, 0.42, 0.0), 'tba': (0.45, 0.40, 0.03),
     'harp': (-0.7, 0.38, 0.0), 'glock': (0.3, 0.45, 0.0),
-    'svln': (-0.3, 0.38, 0.05), 'org': (0.0, 0.55, 0.0), 'bells': (0.35, 0.5, 0.0), 'xylo': (0.25, 0.35, 0.0), 'hn_mute': (-0.35, 0.5, 0.04),
+    'svln': (-0.3, 0.38, 0.05), 'org': (0.0, 0.55, 0.0), 'bells': (0.35, 0.5, 0.0), 'xylo': (0.25, 0.35, 0.0), 'hn_mute': (-0.35, 0.5, 0.04), 'marimba': (-0.2, 0.45, 0.0),
     'timp': (-0.1, 0.40, 0.0), 'timp_roll': (-0.1, 0.40, 0.0), 'perc': (0.05, 0.40, 0.0),
 }
 # measured loudness of each instrument at the same note/velocity (calibrate.py); perc is set by ear-free default
