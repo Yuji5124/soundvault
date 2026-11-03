@@ -6031,6 +6031,74 @@
     "size": 2877655
   },
   {
+    "id": "crust_farewell_m4a",
+    "name": "甲殻類 別れ「小さな殻をのこして」",
+    "file": "/sounds/bgm/crust-farewell.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "場面",
+      "A♭ major",
+      "潜行の動機（5-3-1）"
+    ],
+    "duration": 150,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 7200000,
+    "sampleRate": 48000,
+    "volume": 1,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ヤドカリが約3,500mで離脱する場面（死なず、基地に残る）。A♭ major・64 BPM・4/4・40小節。A クラリネットの静かな旋律、ハープとビオラ → B 第1バイオリン＋フルートが温かく → C ホルンとバイオリンが「また潜ろう」と立ち上がる、鐘 → D 独奏チェロと遠い鐘 → A2 独奏バイオリンで、ほほえむように。ループ: 0〜7200000 サンプル（48kHz、150.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "m4a",
+    "size": 3644069
+  },
+  {
+    "id": "crust_farewell_ogg",
+    "name": "甲殻類 別れ「小さな殻をのこして」",
+    "file": "/sounds/bgm/crust-farewell.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "場面",
+      "A♭ major",
+      "潜行の動機（5-3-1）"
+    ],
+    "duration": 150,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 7200000,
+    "sampleRate": 48000,
+    "volume": 1,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "ヤドカリが約3,500mで離脱する場面（死なず、基地に残る）。A♭ major・64 BPM・4/4・40小節。A クラリネットの静かな旋律、ハープとビオラ → B 第1バイオリン＋フルートが温かく → C ホルンとバイオリンが「また潜ろう」と立ち上がる、鐘 → D 独奏チェロと遠い鐘 → A2 独奏バイオリンで、ほほえむように。ループ: 0〜7200000 サンプル（48kHz、150.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "ogg",
+    "size": 3625626
+  },
+  {
     "id": "crust_battle_swarm_m4a",
     "name": "甲殻類 戦闘1「群れを蹴散らせ」",
     "file": "/sounds/bgm/crust-battle-swarm.m4a",
@@ -6229,6 +6297,274 @@
     "createdAt": "2026-11-01T08:40:06.475Z",
     "format": "ogg",
     "size": 1696549
+  },
+  {
+    "id": "crust_area_core_m4a",
+    "name": "甲殻類 水深12,000m「謎の中心域」",
+    "file": "/sounds/bgm/crust-area-core.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "C (major thirds)",
+      "時を刻む音（乱れる）"
+    ],
+    "duration": 180,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 8640000,
+    "sampleRate": 48000,
+    "volume": 0.96,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "水深12,000m 海溝最深域・謎の中心域（未知の物理現象・最終海域）。C (major thirds)・64 BPM・4/4・48小節。長3度ずつ回る和音（C→E♭→A♭→E）で重力のない感じを出し、2小節ごとにゆっくり動く。A 独奏バイオリン、ドラとオルガン → B クラリネットと弱音器付きホルン、弓で擦るシンバル → A2 フルート、時を刻む音が少しずつ乱れる → C 総奏の雄大な盛り上がり → B2 乱れた時計 → D フルートがハ長調へ静かに着地。ループ: 0〜8640000 サンプル（48kHz、180.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "m4a",
+    "size": 4381305
+  },
+  {
+    "id": "crust_area_core_ogg",
+    "name": "甲殻類 水深12,000m「謎の中心域」",
+    "file": "/sounds/bgm/crust-area-core.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "C (major thirds)",
+      "時を刻む音（乱れる）"
+    ],
+    "duration": 180,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 8640000,
+    "sampleRate": 48000,
+    "volume": 0.96,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "水深12,000m 海溝最深域・謎の中心域（未知の物理現象・最終海域）。C (major thirds)・64 BPM・4/4・48小節。長3度ずつ回る和音（C→E♭→A♭→E）で重力のない感じを出し、2小節ごとにゆっくり動く。A 独奏バイオリン、ドラとオルガン → B クラリネットと弱音器付きホルン、弓で擦るシンバル → A2 フルート、時を刻む音が少しずつ乱れる → C 総奏の雄大な盛り上がり → B2 乱れた時計 → D フルートがハ長調へ静かに着地。ループ: 0〜8640000 サンプル（48kHz、180.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "ogg",
+    "size": 4242830
+  },
+  {
+    "id": "crust_area_current_m4a",
+    "name": "甲殻類 水深500〜3,000m「激流洞窟」",
+    "file": "/sounds/bgm/crust-area-current.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "G minor"
+    ],
+    "duration": 90,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 4320000,
+    "sampleRate": 48000,
+    "volume": 0.81,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "水深500〜3,000m 激流洞窟（海流・迷路・救助）。G minor・128 BPM・4/4・48小節。A 流れるハープと弦の上で第1バイオリン＋オーボエ → B 海流が強まりトランペットとホルン → C 救助、ホルンが立ち上がる → D 流れの淀み、オーボエとグロッケン → A2・B2 流れへ戻る。ループ: 0〜4320000 サンプル（48kHz、90.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "m4a",
+    "size": 2195196
+  },
+  {
+    "id": "crust_area_current_ogg",
+    "name": "甲殻類 水深500〜3,000m「激流洞窟」",
+    "file": "/sounds/bgm/crust-area-current.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "G minor"
+    ],
+    "duration": 90,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 4320000,
+    "sampleRate": 48000,
+    "volume": 0.81,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "水深500〜3,000m 激流洞窟（海流・迷路・救助）。G minor・128 BPM・4/4・48小節。A 流れるハープと弦の上で第1バイオリン＋オーボエ → B 海流が強まりトランペットとホルン → C 救助、ホルンが立ち上がる → D 流れの淀み、オーボエとグロッケン → A2・B2 流れへ戻る。ループ: 0〜4320000 サンプル（48kHz、90.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "ogg",
+    "size": 2137016
+  },
+  {
+    "id": "crust_area_signal_m4a",
+    "name": "甲殻類 水深500m「信号の返事」",
+    "file": "/sounds/bgm/crust-area-signal.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "G major (Lydian)",
+      "ソナーの「ピン」と答え"
+    ],
+    "duration": 120,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5760000,
+    "sampleRate": 48000,
+    "volume": 0.91,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "水深500m 訓練海域（サンゴと沈没船・遺物の信号）。G major (Lydian)・96 BPM・4/4・48小節。A フルートの好奇心の旋律、マリンバとハープ、ソナーのピンにハープが少し遅れて答える → B クラリネットと第1バイオリン → A2 バイオリン＋フルート → C 弦が高く歌う（信号に気づく）→ D 独奏バイオリン → A3 フルートで静かに戻る。ループ: 0〜5760000 サンプル（48kHz、120.000秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "m4a",
+    "size": 2920003
+  },
+  {
+    "id": "crust_area_signal_ogg",
+    "name": "甲殻類 水深500m「信号の返事」",
+    "file": "/sounds/bgm/crust-area-signal.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "深海",
+      "G major (Lydian)",
+      "ソナーの「ピン」と答え"
+    ],
+    "duration": 120,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5760000,
+    "sampleRate": 48000,
+    "volume": 0.91,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "水深500m 訓練海域（サンゴと沈没船・遺物の信号）。G major (Lydian)・96 BPM・4/4・48小節。A フルートの好奇心の旋律、マリンバとハープ、ソナーのピンにハープが少し遅れて答える → B クラリネットと第1バイオリン → A2 バイオリン＋フルート → C 弦が高く歌う（信号に気づく）→ D 独奏バイオリン → A3 フルートで静かに戻る。ループ: 0〜5760000 サンプル（48kHz、120.000秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "ogg",
+    "size": 2955759
+  },
+  {
+    "id": "crust_base_ops_m4a",
+    "name": "甲殻類 海底基地「作戦室はいつも騒がしい」",
+    "file": "/sounds/bgm/crust-base-ops.m4a",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "基地",
+      "F major"
+    ],
+    "duration": 115.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5529600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "海底基地（作戦室・日常。くだらなくシュールな会話の場面）。F major・100 BPM・4/4・48小節。A クラリネットの弾む旋律、ピチカートとタンバリン → B チューバとファゴットの食いしん坊の低音、シロフォンのくすくす笑い → A2 バイオリン＋フルートでやさしく → C 5匹が一斉にしゃべり出す（クラリネット→フルート→ファゴットと同じ句が入りを変えて重なる）→ D 静かな一息、オーボエ → A3 小さく戻る。ループ: 0〜5529600 サンプル（48kHz、115.200秒）。M4A(AAC)はエンコーダの遅延で継ぎ目に隙間が出る場合あり。ループにはOGG推奨、iPhone Safariは実機確認が必要。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "m4a",
+    "size": 2807642
+  },
+  {
+    "id": "crust_base_ops_ogg",
+    "name": "甲殻類 海底基地「作戦室はいつも騒がしい」",
+    "file": "/sounds/bgm/crust-base-ops.ogg",
+    "category": "BGM",
+    "tags": [
+      "bgm",
+      "crustaceans",
+      "orchestral",
+      "基地",
+      "F major"
+    ],
+    "duration": 115.2,
+    "loop": true,
+    "loopStart": 0,
+    "loopEnd": 5529600,
+    "sampleRate": 48000,
+    "volume": 0.8,
+    "license": "Original",
+    "source": "SOUNDVAULT music engine: original score rendered with VSCO 2 Community Edition (CC0) via sfizz; Claude Code",
+    "author": "Claude Code (MONQUE SOUND LAB) for Yuji5124",
+    "favorite": false,
+    "notes": "海底基地（作戦室・日常。くだらなくシュールな会話の場面）。F major・100 BPM・4/4・48小節。A クラリネットの弾む旋律、ピチカートとタンバリン → B チューバとファゴットの食いしん坊の低音、シロフォンのくすくす笑い → A2 バイオリン＋フルートでやさしく → C 5匹が一斉にしゃべり出す（クラリネット→フルート→ファゴットと同じ句が入りを変えて重なる）→ D 静かな一息、オーボエ → A3 小さく戻る。ループ: 0〜5529600 サンプル（48kHz、115.200秒）。",
+    "collections": [
+      "CRUSTACEANS DEEP BGM"
+    ],
+    "projectIds": [
+      "crustaceans"
+    ],
+    "createdAt": "2026-11-03T05:58:09.264Z",
+    "format": "ogg",
+    "size": 2820779
   },
   {
     "id": "crust_deep_canyon_m4a",
